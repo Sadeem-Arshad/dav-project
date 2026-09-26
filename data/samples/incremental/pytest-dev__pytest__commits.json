@@ -1,0 +1,412 @@
+[
+  {
+    "sha": "8721173580390a9d297e5af06cac3f0b6841f425",
+    "node_id": "C_kwDOAjwLddoAKDg3MjExNzM1ODAzOTBhOWQyOTdlNWFmMDZjYWMzZjBiNjg0MWY0MjU",
+    "commit": {
+      "author": {
+        "name": "Ronny Pfannschmidt",
+        "email": "opensource@ronnypfannschmidt.de",
+        "date": "2026-09-24T07:25:06Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-24T07:25:06Z"
+      },
+      "message": "testing: ignore Cython's PyPy collection_type warning (#15096)\n\nPyPy 3.11.16 (PyPy 8.0.0) makes Cython-compiled numpy.random emit\n'cython.collection_type only works on PyPy with the C flag\nCYTHON_USE_TYPE_SPECS=1' as a RuntimeWarning on import. hypothesis\nimports numpy.random whenever numpy is loaded, so under\nfilterwarnings=error every @given test fails on the pypy3-xdist job.\nSame numpy 2.4.6 and hypothesis 6.168.1 import cleanly on PyPy 3.11.15.\n\nCo-authored-by: Claude Opus 5.5 via Claude Code <noreply@anthropic.com>",
+      "tree": {
+        "sha": "d9483007eb2fe86f68c29552bb2b239d5c577d98",
+        "url": "https://api.github.com/repos/pytest-dev/pytest/git/trees/d9483007eb2fe86f68c29552bb2b239d5c577d98"
+      },
+      "url": "https://api.github.com/repos/pytest-dev/pytest/git/commits/8721173580390a9d297e5af06cac3f0b6841f425",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqtNBSCRC1aQ7uu5UhlAAA67kQAHDrxYsOOdTxIqRAPAFuhaQc\niQZX8irhxKJnuT8pXffFOH6lPLVrwmVLgZ+1K8X7n9cNOPQc5nBQSsQlZhL90vpC\nwiiUk1aUEN8PD4SHwnSZYOV4GN6IcLyajxrm8kxBrhotHPYeEsLUsj1FmvGbxJvi\nsqGWVh33mZkSFBSDK5oOyU5520qf5wMvzUWiKVaAbJ5cB9nJzOYZuE9sYv0aTFqx\nFhoXBurjBqISsZ3+DuLmvn4XoNPJ/agY89y1ZoZA7+WXz50LVWfW9i1KtV/ZNIju\naMHaKl/cYDxrmeqDIDUInyQ9WqRtOhAnjUI9GvkB3hIvMueKp2EHwIIsz0cb8ZNB\nMI7yBKdk0K03eF6CUxFyGmLbIDMornIk51kJnJZXYvjO4BzeojXLQSSPMReMmd8p\nL19VSvTXgQeapBmtmWsQKAVCsfbWO5rOFpKO/wscF1f2f+tmsmOCk/yl8E8ueDWu\nLnCt8dBLfJvtbt4vp2PgmcjdfrEknZ5nQGIb3GEdaOAXtmnqPZT+neGQlOWzhx/9\nNIjErSvLTdLnSiHAWjZ2fm3q6Bpdt/KB8imzl+3o7FdsPHOVYUQ1P60NLIVU+TDH\nQ2qW2fEpBdKVF2TZsnysT73YBab9W3xFNtI2jT5Jzbr14ARCQOfQlP9nZycu+ESe\nADDCP/XPT62DhMEb15fR\n=ieCm\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree d9483007eb2fe86f68c29552bb2b239d5c577d98\nparent f9554ee56d264da285f3951ebfdf6f1d59ba4077\nauthor Ronny Pfannschmidt <opensource@ronnypfannschmidt.de> 1790234706 +0200\ncommitter GitHub <noreply@github.com> 1790234706 +0300\n\ntesting: ignore Cython's PyPy collection_type warning (#15096)\n\nPyPy 3.11.16 (PyPy 8.0.0) makes Cython-compiled numpy.random emit\n'cython.collection_type only works on PyPy with the C flag\nCYTHON_USE_TYPE_SPECS=1' as a RuntimeWarning on import. hypothesis\nimports numpy.random whenever numpy is loaded, so under\nfilterwarnings=error every @given test fails on the pypy3-xdist job.\nSame numpy 2.4.6 and hypothesis 6.168.1 import cleanly on PyPy 3.11.15.\n\nCo-authored-by: Claude Opus 5.5 via Claude Code <noreply@anthropic.com>",
+        "verified_at": "2026-09-24T07:25:07Z"
+      }
+    },
+    "url": "https://api.github.com/repos/pytest-dev/pytest/commits/8721173580390a9d297e5af06cac3f0b6841f425",
+    "html_url": "https://github.com/pytest-dev/pytest/commit/8721173580390a9d297e5af06cac3f0b6841f425",
+    "comments_url": "https://api.github.com/repos/pytest-dev/pytest/commits/8721173580390a9d297e5af06cac3f0b6841f425/comments",
+    "author": {
+      "login": "RonnyPfannschmidt",
+      "id": 156838,
+      "node_id": "MDQ6VXNlcjE1NjgzOA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/156838?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/RonnyPfannschmidt",
+      "html_url": "https://github.com/RonnyPfannschmidt",
+      "followers_url": "https://api.github.com/users/RonnyPfannschmidt/followers",
+      "following_url": "https://api.github.com/users/RonnyPfannschmidt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/RonnyPfannschmidt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/RonnyPfannschmidt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/RonnyPfannschmidt/subscriptions",
+      "organizations_url": "https://api.github.com/users/RonnyPfannschmidt/orgs",
+      "repos_url": "https://api.github.com/users/RonnyPfannschmidt/repos",
+      "events_url": "https://api.github.com/users/RonnyPfannschmidt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/RonnyPfannschmidt/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f9554ee56d264da285f3951ebfdf6f1d59ba4077",
+        "url": "https://api.github.com/repos/pytest-dev/pytest/commits/f9554ee56d264da285f3951ebfdf6f1d59ba4077",
+        "html_url": "https://github.com/pytest-dev/pytest/commit/f9554ee56d264da285f3951ebfdf6f1d59ba4077"
+      }
+    ]
+  },
+  {
+    "sha": "f9554ee56d264da285f3951ebfdf6f1d59ba4077",
+    "node_id": "C_kwDOAjwLddoAKGY5NTU0ZWU1NmQyNjRkYTI4NWYzOTUxZWJmZGY2ZjFkNTliYTQwNzc",
+    "commit": {
+      "author": {
+        "name": "Poorva Barve",
+        "email": "poorvabarve@gmail.com",
+        "date": "2026-09-23T07:29:41Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-23T07:29:41Z"
+      },
+      "message": "Fix doctest option flags leaking between docstrings (#15033)",
+      "tree": {
+        "sha": "be6a995bdb4aefe485b3bfb4b04f6a0b9ec6d1b3",
+        "url": "https://api.github.com/repos/pytest-dev/pytest/git/trees/be6a995bdb4aefe485b3bfb4b04f6a0b9ec6d1b3"
+      },
+      "url": "https://api.github.com/repos/pytest-dev/pytest/git/commits/f9554ee56d264da285f3951ebfdf6f1d59ba4077",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqs3/lCRC1aQ7uu5UhlAAAiBsQABMc/7/o1ZIAHDn+ECwWAAXt\nO6Ww3rGzrlVbPP3H9gTQDszN9OvC00KeAUVwjmjT0qAx0TRTpI1cbRknS2FEeKee\nhNsZkR019NxODpBYNkOHri7F1IYm3Zvu123qUad0LXIludW3rZPqpCgWW9XEoSni\nOA/ncev6n8G1ScAbNpgjl7PVJtz47AIDvfLVpe/0rlaaShGjmGelz0K4fzO7fbDK\nWcarefWK/O1rajzIpGoQQRP9u7sEOWE/c3NXv77Onc9K7g8Z70H/j4fvjvfZus6u\nK5C8CNa4ZFoi0bqYqWGmxFDBpVDlsTzAlX+b2PGD7iDb3d/xsYiEaLk34Rt7QdDh\nWNOiJBV5E6IcF+S3VzNO11I/iB2K8O5m6ZFBLR7BSo0agJc+H20vxnYucKinay3s\nnKvABN7ilqNUWuUFesU1xRZNafcVmRgJHm9MyQKoApbSAV3T03f0RoSUUtGmd9pq\nsVxRMUlQg+TeBj2LcHGceeRaj5DKvNMLtAeciL75YP+Cm+12as0iD9h0i/+Fyonq\nrZf8cNJBvfY0rxilZF9Koohuvw4IHUBdlVTDyQyou7DU4ds5oL/n881YEWnX99F5\ngUgQa0znMVHMCmU5LtluD9xkNJ7hj8Y7TQm6Rm4oRRxlwP9GVY3m7dqGC68b/OE7\nTNqLA6dB+3d/RsY9F5vi\n=saAX\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree be6a995bdb4aefe485b3bfb4b04f6a0b9ec6d1b3\nparent 6a9ba0f02f827a54cff6ab4da0dddecd65444ff6\nauthor Poorva Barve <poorvabarve@gmail.com> 1790148581 -0700\ncommitter GitHub <noreply@github.com> 1790148581 +0200\n\nFix doctest option flags leaking between docstrings (#15033)",
+        "verified_at": "2026-09-23T07:29:42Z"
+      }
+    },
+    "url": "https://api.github.com/repos/pytest-dev/pytest/commits/f9554ee56d264da285f3951ebfdf6f1d59ba4077",
+    "html_url": "https://github.com/pytest-dev/pytest/commit/f9554ee56d264da285f3951ebfdf6f1d59ba4077",
+    "comments_url": "https://api.github.com/repos/pytest-dev/pytest/commits/f9554ee56d264da285f3951ebfdf6f1d59ba4077/comments",
+    "author": {
+      "login": "barveP",
+      "id": 185753890,
+      "node_id": "U_kgDOCxJhIg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/185753890?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/barveP",
+      "html_url": "https://github.com/barveP",
+      "followers_url": "https://api.github.com/users/barveP/followers",
+      "following_url": "https://api.github.com/users/barveP/following{/other_user}",
+      "gists_url": "https://api.github.com/users/barveP/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/barveP/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/barveP/subscriptions",
+      "organizations_url": "https://api.github.com/users/barveP/orgs",
+      "repos_url": "https://api.github.com/users/barveP/repos",
+      "events_url": "https://api.github.com/users/barveP/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/barveP/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6a9ba0f02f827a54cff6ab4da0dddecd65444ff6",
+        "url": "https://api.github.com/repos/pytest-dev/pytest/commits/6a9ba0f02f827a54cff6ab4da0dddecd65444ff6",
+        "html_url": "https://github.com/pytest-dev/pytest/commit/6a9ba0f02f827a54cff6ab4da0dddecd65444ff6"
+      }
+    ]
+  },
+  {
+    "sha": "6a9ba0f02f827a54cff6ab4da0dddecd65444ff6",
+    "node_id": "C_kwDOAjwLddoAKDZhOWJhMGYwMmY4MjdhNTRjZmY2YWI0ZGEwZGRkZWNkNjU0NDRmZjY",
+    "commit": {
+      "author": {
+        "name": "github-actions[bot]",
+        "email": "41898282+github-actions[bot]@users.noreply.github.com",
+        "date": "2026-09-21T13:25:49Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-21T13:25:49Z"
+      },
+      "message": "[automated] Update plugin list (#15066)\n\nCo-authored-by: pytest bot <pytestbot@users.noreply.github.com>",
+      "tree": {
+        "sha": "0ad4cefdafaab127816b6328dbbd781793ed37f3",
+        "url": "https://api.github.com/repos/pytest-dev/pytest/git/trees/0ad4cefdafaab127816b6328dbbd781793ed37f3"
+      },
+      "url": "https://api.github.com/repos/pytest-dev/pytest/git/commits/6a9ba0f02f827a54cff6ab4da0dddecd65444ff6",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqsTBeCRC1aQ7uu5UhlAAA/vEQAI72VIem7eVAMuLbp448clTw\n+gJ16QEHJFWgV30To8kxEfRFHQKmT05RHUECCeYkYb2X5FklNxtPb1In1inaDtGO\nVOLVbdhyMrJynE7GvGoh12FiI3jhXzxnbtfHivU9GAYaaBPLl8l2uwlHLKfoxIyS\n5EKMCtFH/TC9ZLvKqA+5YCVndHTVUsvvuC8vndjwQXmfTiJs3zP+KDft2co7A2o2\nlr9cfqxh9Yd12X30RIdTbKc7SyXfO/AATCZDs2aFxBlt3w9rDaeJfLd1jXr7E/aO\nYTBnSIvTFBNrP9JKWb3NsY+23SS+oY/BbmVkFWB/tvSEmT2l9aI7wpgZaxDHY/C+\nj1gmzwFZZsAioZe3oYPG8MBd4UDHTuD1BWGAXVTHllLf8Cn94EKHwpck8a+vWcnx\nqZhSpe7LjaeXQ8tUGCxMPDtksN/opyskNZvGW5kNaDsjtjnnL62PbKu/Fo/XjCK2\nHA82YGPkIGEikGE/PDYxAvcVClggTB20SfaH+6+qv8T0XijTdLMXY4G+qAtPB7YM\nDd3hJCyCme9GgIQQF23FuPmj00lSiitgW1MEBlJ+NbK4dk9iLg0CzAvodVh+b1fT\ndrU9aRnEFSgN+PmtEzWIB3S5u0gtI/Onnv4PokHyT2HCDBkpTxaRxlKjnukLdS7o\nS0Uw6wUWtOF7rp5nZyIu\n=19nz\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 0ad4cefdafaab127816b6328dbbd781793ed37f3\nparent f12c34b5efb3e2b0f349375c780dc3e6b462fa4f\nauthor github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> 1789997149 +0000\ncommitter GitHub <noreply@github.com> 1789997149 +0000\n\n[automated] Update plugin list (#15066)\n\nCo-authored-by: pytest bot <pytestbot@users.noreply.github.com>",
+        "verified_at": "2026-09-21T13:25:51Z"
+      }
+    },
+    "url": "https://api.github.com/repos/pytest-dev/pytest/commits/6a9ba0f02f827a54cff6ab4da0dddecd65444ff6",
+    "html_url": "https://github.com/pytest-dev/pytest/commit/6a9ba0f02f827a54cff6ab4da0dddecd65444ff6",
+    "comments_url": "https://api.github.com/repos/pytest-dev/pytest/commits/6a9ba0f02f827a54cff6ab4da0dddecd65444ff6/comments",
+    "author": {
+      "login": "github-actions[bot]",
+      "id": 41898282,
+      "node_id": "MDM6Qm90NDE4OTgyODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+      "html_url": "https://github.com/apps/github-actions",
+      "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f12c34b5efb3e2b0f349375c780dc3e6b462fa4f",
+        "url": "https://api.github.com/repos/pytest-dev/pytest/commits/f12c34b5efb3e2b0f349375c780dc3e6b462fa4f",
+        "html_url": "https://github.com/pytest-dev/pytest/commit/f12c34b5efb3e2b0f349375c780dc3e6b462fa4f"
+      }
+    ]
+  },
+  {
+    "sha": "f12c34b5efb3e2b0f349375c780dc3e6b462fa4f",
+    "node_id": "C_kwDOAjwLddoAKGYxMmMzNGI1ZWZiM2UyYjBmMzQ5Mzc1Yzc4MGRjM2U2YjQ2MmZhNGY",
+    "commit": {
+      "author": {
+        "name": "Ronny Pfannschmidt",
+        "email": "opensource@ronnypfannschmidt.de",
+        "date": "2026-09-21T10:34:05Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-21T10:34:05Z"
+      },
+      "message": "Clarify the relation between marks and keywords (#15011)\n\n* mark: ignore non-keyword function attributes in -k matching\n\nThe -k matcher scans a test function's __dict__ to support the legacy\n`test_fn.foo = True` keyword idiom, but that scan also picked up\nattributes nobody meant as keywords: pytest's own `pytestmark` storage,\nand the bookkeeping decorators leave behind (`__wrapped__` and the rest\nof what functools.wraps copies, lru_cache's `cache_parameters`).\n\nSo `-k wrapped` selected every wraps-decorated test and `-k pytestmark`\nselected every directly marked one.\n\nSkip private and dunder names, plus a named set of known attributes.\n\nPart of #4569.\n\nCo-Authored-By: Claude Opus 5 (1M context) via Claude Code <noreply@anthropic.com>\n\n* nodes: store Mark, not MarkDecorator, in keywords from add_marker\n\nMarks applied during collection are stored in node.keywords as Mark\nobjects; add_marker stored the MarkDecorator instead, so the value type\ndepended on how the mark got there.\n\nNothing inside pytest reads keyword values, and both types expose\nname/args/kwargs, so downstream `item.keywords[\"x\"].args` keeps working.\n\nPart of #4569.\n\nCo-Authored-By: Claude Opus 5 (1M context) via Claude Code <noreply@anthropic.com>\n\n* doc: say what -k actually matches\n\nThe -k help text still described the pre-5.4 implementation (\"a Python\nevaluable expression\"), claimed matching is limited to test names and\ntheir parent classes, and never mentioned that marker names are\nkeywords - which is the behaviour people trip over in #4569.\n\nReplace it with the real list of keyword sources, and state the\nsubstring/case-insensitive contrast with -m in both option blocks.\n\nPart of #4569.\n\nCo-Authored-By: Claude Opus 5 (1M context) via Claude Code <noreply@anthropic.com>\n\n* doc: correct the keyword-related docstrings\n\nKeywordMatcher claimed it only matches Class and Function names, which\nstopped being true in 2.4.0; Function's `keywords` parameter claimed it\nfeeds \"-k\" matching, which it does not; TestReport.keywords promised a\nname -> value mapping while the values are all 1, so annotate it\n`Literal[1]` and let the type checker hold that promise.\n\n`FixtureRequest.applymarker` spoke of \"a single test function\ninvocation\" without saying what that is in contrast to; say that it is\nthe request's node, and that decorating the function marks every\ninvocation instead.\n\nAlso state what Node.keywords is for, and that -k does not read it.\n\nPart of #4569.\n\nCo-Authored-By: Claude Opus 5 (1M context) via Claude Code <noreply@anthropic.com>\n\n* doc: make markers.rst the one explanation of -k\n\nThe markers.rst section title and intro presented -k as matching test\nnames, in contrast to -m matching markers, and only corrected itself in\na trailing paragraph after three console dumps. usage.rst, the page the\noption reference links to, still described the pre-5.4 eval semantics\nand listed only filenames, classes and functions.\n\nKeep the keyword list where it was, after the examples -- the reader\nneeds to see -k work before being told what else it looks at -- but make\nit a list, and give each entry a name from the example module rather\nthan a description in the abstract. The example module already carries\nthe point: test_send_http is marked webtest, so `-k webtest` selects a\ntest whose name contains no \"webtest\", and `-k device` selects both\ndevice tests where the -m expression above tells their arguments apart.\n\nLabel the section so the other pages can point at it. usage.rst is a\ngetting-started page, so it keeps one sentence and the link; the option\nreference keeps the exhaustive list and links here for the examples.\n\nPart of #4569.\n\nCo-Authored-By: Claude Opus 5 (1M context) via Claude Code <noreply@anthropic.com>\n\n* doc: look up markers with get_closest_marker in the examples\n\nThe --runslow and incremental examples tested for a marker with\n`\"name\" in item.keywords`, which is also true when a parent node happens\nto be named that, or when the test function carries an attribute of that\nname. These snippets are widely copied, so they are where the idiom of\ntreating keywords as a mark lookup keeps coming from.\n\nPart of #4569.\n\nCo-Authored-By: Claude Opus 5 (1M context) via Claude Code <noreply@anthropic.com>\n\n* testing: pin the keyword and mark selection behaviour\n\nSeveral long-standing behaviours had no test: -k matching marks from the\nmodule, class and base classes; -k ignoring marker arguments; -k seeing\na mark added by a conftest collection hook; extra_keyword_matches on an\nitem rather than a collector; and writing into item.keywords having no\neffect on either -k or -m, despite the 2.3.4 changelog claiming it\n\"integrates with the -m option\".\n\nAlso enable the -k half of test_mark_expressions_no_smear, commented out\nsince the marker transfer that made marks smear onto a shared base class\nwas removed, and pin that -m is case sensitive.\n\nPart of #4569.\n\nCo-Authored-By: Claude Opus 5 (1M context) via Claude Code <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) via Claude Code <noreply@anthropic.com>",
+      "tree": {
+        "sha": "212db7b625fa304ffe358b70273b71004a8782e5",
+        "url": "https://api.github.com/repos/pytest-dev/pytest/git/trees/212db7b625fa304ffe358b70273b71004a8782e5"
+      },
+      "url": "https://api.github.com/repos/pytest-dev/pytest/git/commits/f12c34b5efb3e2b0f349375c780dc3e6b462fa4f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqsQgdCRC1aQ7uu5UhlAAA6pMQAKgxqcw3VJJdPSbvBCiCrxWF\na50shAxmhWeNWUy95ckqtImfDGiPLEUaMGVtHIpjhvzKKL3W3i9psZzcuVdbOJCc\nDIxVTL6tLRCraDiVPPeujUHgPHWij3MM2zLZCuSyA8im79WedhAgIAlKZOrdJxtL\ntOEaWzrl6Ultxhe7Qe4fTBeTYtZuZyqhYIEWYpfJfMrzitMZScUyvNfi10LRJdJA\n7/xd3i3ZUfAiWRQLQ76ERZ9gEkqaxAnUcaOxrK0aQQeo4nlbY92Ve5Cf3DdNLxMm\n4lCDGp5CHsBfA0TbdV7psbJeLKPeoO9up5DmTbPY0hMABPgOip5rhWkzg1jvp3IP\n0nb307l8RQMTk5pu3OHozu6E0wefldShsDb11b6K5YXI/ZBVsW73JALbP1w7J746\nH3ziEYI6O7wK1PBbv8MgG4zZbCOSo/kzaSTSbXEhunZ/jNXHgr6vkfr54VCmkvW4\noLeO3kbJ3N+0K0l9KAu8zKsHMVLULgi/U0/nhFDX8dGd0XCU5wBzg8dV/bLeyTUi\nATKlIBDvkgHMSRCAwmaqOrLz2h5p99TCdRXrgftLVHsEkuBIC2nejXCV9qhtvIQS\nkPIH7H/Wy3idXCFLQ+aTrWBNQH/SlElAkaZ7VnQapnrROShvjq3hu4TH9hGcETBx\nOJTbEtvkSgP4m7SLekcr\n=PWkx\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 212db7b625fa304ffe358b70273b71004a8782e5\nparent 79833c82b92409dd74c9236c59b8b18970d026e0\nauthor Ronny Pfannschmidt <opensource@ronnypfannschmidt.de> 1789986845 +0200\ncommitter GitHub <noreply@github.com> 1789986845 +0200\n\nClarify the relation between marks and keywords (#15011)\n\n* mark: ignore non-keyword function attributes in -k matching\n\nThe -k matcher scans a test function's __dict__ to support the legacy\n`test_fn.foo = True` keyword idiom, but that scan also picked up\nattributes nobody meant as keywords: pytest's own `pytestmark` storage,\nand the bookkeeping decorators leave behind (`__wrapped__` and the rest\nof what functools.wraps copies, lru_cache's `cache_parameters`).\n\nSo `-k wrapped` selected every wraps-decorated test and `-k pytestmark`\nselected every directly marked one.\n\nSkip private and dunder names, plus a named set of known attributes.\n\nPart of #4569.\n\nCo-Authored-By: Claude Opus 5 (1M context) via Claude Code <noreply@anthropic.com>\n\n* nodes: store Mark, not MarkDecorator, in keywords from add_marker\n\nMarks applied during collection are stored in node.keywords as Mark\nobjects; add_marker stored the MarkDecorator instead, so the value type\ndepended on how the mark got there.\n\nNothing inside pytest reads keyword values, and both types expose\nname/args/kwargs, so downstream `item.keywords[\"x\"].args` keeps working.\n\nPart of #4569.\n\nCo-Authored-By: Claude Opus 5 (1M context) via Claude Code <noreply@anthropic.com>\n\n* doc: say what -k actually matches\n\nThe -k help text still described the pre-5.4 implementation (\"a Python\nevaluable expression\"), claimed matching is limited to test names and\ntheir parent classes, and never mentioned that marker names are\nkeywords - which is the behaviour people trip over in #4569.\n\nReplace it with the real list of keyword sources, and state the\nsubstring/case-insensitive contrast with -m in both option blocks.\n\nPart of #4569.\n\nCo-Authored-By: Claude Opus 5 (1M context) via Claude Code <noreply@anthropic.com>\n\n* doc: correct the keyword-related docstrings\n\nKeywordMatcher claimed it only matches Class and Function names, which\nstopped being true in 2.4.0; Function's `keywords` parameter claimed it\nfeeds \"-k\" matching, which it does not; TestReport.keywords promised a\nname -> value mapping while the values are all 1, so annotate it\n`Literal[1]` and let the type checker hold that promise.\n\n`FixtureRequest.applymarker` spoke of \"a single test function\ninvocation\" without saying what that is in contrast to; say that it is\nthe request's node, and that decorating the function marks every\ninvocation instead.\n\nAlso state what Node.keywords is for, and that -k does not read it.\n\nPart of #4569.\n\nCo-Authored-By: Claude Opus 5 (1M context) via Claude Code <noreply@anthropic.com>\n\n* doc: make markers.rst the one explanation of -k\n\nThe markers.rst section title and intro presented -k as matching test\nnames, in contrast to -m matching markers, and only corrected itself in\na trailing paragraph after three console dumps. usage.rst, the page the\noption reference links to, still described the pre-5.4 eval semantics\nand listed only filenames, classes and functions.\n\nKeep the keyword list where it was, after the examples -- the reader\nneeds to see -k work before being told what else it looks at -- but make\nit a list, and give each entry a name from the example module rather\nthan a description in the abstract. The example module already carries\nthe point: test_send_http is marked webtest, so `-k webtest` selects a\ntest whose name contains no \"webtest\", and `-k device` selects both\ndevice tests where the -m expression above tells their arguments apart.\n\nLabel the section so the other pages can point at it. usage.rst is a\ngetting-started page, so it keeps one sentence and the link; the option\nreference keeps the exhaustive list and links here for the examples.\n\nPart of #4569.\n\nCo-Authored-By: Claude Opus 5 (1M context) via Claude Code <noreply@anthropic.com>\n\n* doc: look up markers with get_closest_marker in the examples\n\nThe --runslow and incremental examples tested for a marker with\n`\"name\" in item.keywords`, which is also true when a parent node happens\nto be named that, or when the test function carries an attribute of that\nname. These snippets are widely copied, so they are where the idiom of\ntreating keywords as a mark lookup keeps coming from.\n\nPart of #4569.\n\nCo-Authored-By: Claude Opus 5 (1M context) via Claude Code <noreply@anthropic.com>\n\n* testing: pin the keyword and mark selection behaviour\n\nSeveral long-standing behaviours had no test: -k matching marks from the\nmodule, class and base classes; -k ignoring marker arguments; -k seeing\na mark added by a conftest collection hook; extra_keyword_matches on an\nitem rather than a collector; and writing into item.keywords having no\neffect on either -k or -m, despite the 2.3.4 changelog claiming it\n\"integrates with the -m option\".\n\nAlso enable the -k half of test_mark_expressions_no_smear, commented out\nsince the marker transfer that made marks smear onto a shared base class\nwas removed, and pin that -m is case sensitive.\n\nPart of #4569.\n\nCo-Authored-By: Claude Opus 5 (1M context) via Claude Code <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) via Claude Code <noreply@anthropic.com>",
+        "verified_at": "2026-09-21T10:34:05Z"
+      }
+    },
+    "url": "https://api.github.com/repos/pytest-dev/pytest/commits/f12c34b5efb3e2b0f349375c780dc3e6b462fa4f",
+    "html_url": "https://github.com/pytest-dev/pytest/commit/f12c34b5efb3e2b0f349375c780dc3e6b462fa4f",
+    "comments_url": "https://api.github.com/repos/pytest-dev/pytest/commits/f12c34b5efb3e2b0f349375c780dc3e6b462fa4f/comments",
+    "author": {
+      "login": "RonnyPfannschmidt",
+      "id": 156838,
+      "node_id": "MDQ6VXNlcjE1NjgzOA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/156838?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/RonnyPfannschmidt",
+      "html_url": "https://github.com/RonnyPfannschmidt",
+      "followers_url": "https://api.github.com/users/RonnyPfannschmidt/followers",
+      "following_url": "https://api.github.com/users/RonnyPfannschmidt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/RonnyPfannschmidt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/RonnyPfannschmidt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/RonnyPfannschmidt/subscriptions",
+      "organizations_url": "https://api.github.com/users/RonnyPfannschmidt/orgs",
+      "repos_url": "https://api.github.com/users/RonnyPfannschmidt/repos",
+      "events_url": "https://api.github.com/users/RonnyPfannschmidt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/RonnyPfannschmidt/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "79833c82b92409dd74c9236c59b8b18970d026e0",
+        "url": "https://api.github.com/repos/pytest-dev/pytest/commits/79833c82b92409dd74c9236c59b8b18970d026e0",
+        "html_url": "https://github.com/pytest-dev/pytest/commit/79833c82b92409dd74c9236c59b8b18970d026e0"
+      }
+    ]
+  },
+  {
+    "sha": "79833c82b92409dd74c9236c59b8b18970d026e0",
+    "node_id": "C_kwDOAjwLddoAKDc5ODMzYzgyYjkyNDA5ZGQ3NGM5MjM2YzU5YjhiMTg5NzBkMDI2ZTA",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2026-09-21T08:53:01Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-21T08:53:01Z"
+      },
+      "message": "build(deps): Bump codecov/codecov-action from 7.0.0 to 7.1.0 (#15070)\n\nBumps [codecov/codecov-action](https://github.com/codecov/codecov-action) from 7.0.0 to 7.1.0.\n- [Release notes](https://github.com/codecov/codecov-action/releases)\n- [Changelog](https://github.com/codecov/codecov-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/codecov/codecov-action/compare/fb8b3582c8e4def4969c97caa2f19720cb33a72f...0b35c9ecc4f0529d0eb674914510c22f85b196b4)\n\n---\nupdated-dependencies:\n- dependency-name: codecov/codecov-action\n  dependency-version: 7.1.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+      "tree": {
+        "sha": "219dcd3144e23fb96445e3790698e1575e74eeb2",
+        "url": "https://api.github.com/repos/pytest-dev/pytest/git/trees/219dcd3144e23fb96445e3790698e1575e74eeb2"
+      },
+      "url": "https://api.github.com/repos/pytest-dev/pytest/git/commits/79833c82b92409dd74c9236c59b8b18970d026e0",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqsPBtCRC1aQ7uu5UhlAAAztYQABxAQe199MKRNV5N9nTbIALL\n2wNICGcbKp1izOstGJp8KNYOAulW9n38gAgNxUw+wQHHCsAlGpgzXasXglWb1C9W\nuzlmvm5Jb04Vil4qq2QhrVwwZpEYbauWerWQLcOg+Ly+Cvm74ZVgqDuovr/XICZ6\nMy5XJiZ4DxI/saQtoBH+RsofnNHYl2/mye8b7yBO3rf9SLwCF64SID8vaKuUMFLc\nYhOyM+uHxPS/xBu5wvh/5KIQqZwEpw0zJG6dUxwLlBqHBqPgRqRG8Bz5A+kWDp0u\nAE2fNUdLUMmLOmGgB2Z9fkuFkMpdV95sbDsAuYOV1Cufj/moCFbZz3SG6554zKkT\nBPirPZb+AzWdjtiug6U9CLpzPUla05VM5EYFPVtJYY+We5aHSq0nl1NBTcespx09\nXZ/v7LyoJ1WxBdDLgkn4E0l2jzSdI54uVkt9j/0grj/H/i8oFgvkp74EGy8DGp6p\nOM/R1JKZZqmNgoAevdxVXPSj4efQaC4lOEk7qv925Wui//vbsnWqqh5rmegK1mN7\nQkHUuEP+1C4I4/SEjLc5LEMGvfDA3bXAKrCKtkaiY1qRf1MtEYi+diVTXkY7B7EW\nd7NhghIj455+GnwI5UZuvp59veEHv/PAc9J/VuoCuFPwSe7qqCuWLdvY2DJ/Nf1/\nhfDAX9mA6Yp/lYG1JB6R\n=31Mv\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 219dcd3144e23fb96445e3790698e1575e74eeb2\nparent 6a0de9be56365e75ff30d75cee9654739ca95f97\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1789980781 +0200\ncommitter GitHub <noreply@github.com> 1789980781 +0200\n\nbuild(deps): Bump codecov/codecov-action from 7.0.0 to 7.1.0 (#15070)\n\nBumps [codecov/codecov-action](https://github.com/codecov/codecov-action) from 7.0.0 to 7.1.0.\n- [Release notes](https://github.com/codecov/codecov-action/releases)\n- [Changelog](https://github.com/codecov/codecov-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/codecov/codecov-action/compare/fb8b3582c8e4def4969c97caa2f19720cb33a72f...0b35c9ecc4f0529d0eb674914510c22f85b196b4)\n\n---\nupdated-dependencies:\n- dependency-name: codecov/codecov-action\n  dependency-version: 7.1.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "verified_at": "2026-09-21T08:53:02Z"
+      }
+    },
+    "url": "https://api.github.com/repos/pytest-dev/pytest/commits/79833c82b92409dd74c9236c59b8b18970d026e0",
+    "html_url": "https://github.com/pytest-dev/pytest/commit/79833c82b92409dd74c9236c59b8b18970d026e0",
+    "comments_url": "https://api.github.com/repos/pytest-dev/pytest/commits/79833c82b92409dd74c9236c59b8b18970d026e0/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6a0de9be56365e75ff30d75cee9654739ca95f97",
+        "url": "https://api.github.com/repos/pytest-dev/pytest/commits/6a0de9be56365e75ff30d75cee9654739ca95f97",
+        "html_url": "https://github.com/pytest-dev/pytest/commit/6a0de9be56365e75ff30d75cee9654739ca95f97"
+      }
+    ]
+  }
+]

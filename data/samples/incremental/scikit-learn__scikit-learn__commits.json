@@ -1,0 +1,1396 @@
+[
+  {
+    "sha": "857849927da6e988d7d026b17aef214d43e5f26e",
+    "node_id": "C_kwDOAAzd1toAKDg1Nzg0OTkyN2RhNmU5ODhkN2QwMjZiMTdhZWYyMTRkNDNlNWYyNmU",
+    "commit": {
+      "author": {
+        "name": "Olivier Grisel",
+        "email": "olivier.grisel@ensta.org",
+        "date": "2026-09-24T17:11:32Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-24T17:11:32Z"
+      },
+      "message": "FIX always use logits in CalibratedClassifierCV (#34313)\n\nCo-authored-by: Antoine Baker <antoine.baker59@gmail.com>\nCo-authored-by: Christian Lorentzen <lorentzen.ch@gmail.com>",
+      "tree": {
+        "sha": "e91cb641390d042612a0f15eb52ba703aefd426a",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/trees/e91cb641390d042612a0f15eb52ba703aefd426a"
+      },
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/commits/857849927da6e988d7d026b17aef214d43e5f26e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqtVnECRC1aQ7uu5UhlAAATfoQAKGw8gV5p+y6mCWoV4ye0/0f\ndeqs0EX+5ruVHYPOGBlPJyqDC1248qZxLWonOK37XmcM4qT8GNnWeu8tKd4DGa7h\njDciU/1KzBzEfEP41QpxARVky18sjHcjU5jxOlmGCl/wltU7sUMF/T4iCytZiTeJ\nEClUu8bkaspSpTHT4dP2TlkPMhoNuN11qMn0V7RDGrBfHtDyDEavUaEtWMm/KT/o\n3KE3fGxwZnxQvafdscirRbc+XlJ4fhcAU4vlval+b5QvuGxukQ97FInLeAhnoamH\nhNGSSMqIYApvej7+IJRVX/HkSlW4cDF/wbGE8RHmogu/BwDa09bCaoEgjsSowiSu\nG88TZfy6/FTMcbKxi4hPQIOzU2oGOx/J3YSjVuJowLkyz/pGR9kiv3Ytw+atSjrV\nr841wX8+mXUd02gbcBNED04MADkd5BTICERneQwR1dcpXIBAKS2WPTaFgDIENcN8\nQAAXAZRbzNIryYp6557LlbpzajYfW4vqXBWcMbUt7QIYvtybZVnnyV+WWhB77KXa\nMb6Yqch9gKpEx2ScUoBGz0HcBlNnDWVnWMMhnVSnYpmaZh6dREL/guhJ//96U488\nFBZHIl3+SKDjPdydrTtCu+v6En9K3nDAwNPHOnKbO/LP51SR/F+FNXkqNi/5jKM4\niOAlffdD0S05Yd2DVvvk\n=ByVB\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e91cb641390d042612a0f15eb52ba703aefd426a\nparent ed8f34a8cb1afbd69e48c4634df92f7ae10174a3\nauthor Olivier Grisel <olivier.grisel@ensta.org> 1790269892 +0200\ncommitter GitHub <noreply@github.com> 1790269892 +0200\n\nFIX always use logits in CalibratedClassifierCV (#34313)\n\nCo-authored-by: Antoine Baker <antoine.baker59@gmail.com>\nCo-authored-by: Christian Lorentzen <lorentzen.ch@gmail.com>",
+        "verified_at": "2026-09-24T17:11:33Z"
+      }
+    },
+    "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/857849927da6e988d7d026b17aef214d43e5f26e",
+    "html_url": "https://github.com/scikit-learn/scikit-learn/commit/857849927da6e988d7d026b17aef214d43e5f26e",
+    "comments_url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/857849927da6e988d7d026b17aef214d43e5f26e/comments",
+    "author": {
+      "login": "ogrisel",
+      "id": 89061,
+      "node_id": "MDQ6VXNlcjg5MDYx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89061?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ogrisel",
+      "html_url": "https://github.com/ogrisel",
+      "followers_url": "https://api.github.com/users/ogrisel/followers",
+      "following_url": "https://api.github.com/users/ogrisel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ogrisel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ogrisel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ogrisel/subscriptions",
+      "organizations_url": "https://api.github.com/users/ogrisel/orgs",
+      "repos_url": "https://api.github.com/users/ogrisel/repos",
+      "events_url": "https://api.github.com/users/ogrisel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ogrisel/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ed8f34a8cb1afbd69e48c4634df92f7ae10174a3",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/ed8f34a8cb1afbd69e48c4634df92f7ae10174a3",
+        "html_url": "https://github.com/scikit-learn/scikit-learn/commit/ed8f34a8cb1afbd69e48c4634df92f7ae10174a3"
+      }
+    ]
+  },
+  {
+    "sha": "ed8f34a8cb1afbd69e48c4634df92f7ae10174a3",
+    "node_id": "C_kwDOAAzd1toAKGVkOGYzNGE4Y2IxYWZiZDY5ZTQ4YzQ2MzRkZjkyZjdhZTEwMTc0YTM",
+    "commit": {
+      "author": {
+        "name": "Aditya Chaudhary",
+        "email": "188453592+Adityaa-KC@users.noreply.github.com",
+        "date": "2026-09-24T15:20:02Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-24T15:20:02Z"
+      },
+      "message": "Fix micromamba initialization in Codespaces setup (#34985)",
+      "tree": {
+        "sha": "5847d3572e0ab415607b32cad56c498061cc85f6",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/trees/5847d3572e0ab415607b32cad56c498061cc85f6"
+      },
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/commits/ed8f34a8cb1afbd69e48c4634df92f7ae10174a3",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqtT+iCRC1aQ7uu5UhlAAAMhUQADn36r0YdrFNyo68Pw75f1ZO\nNPForYXc7RWgqZ07YRbH96B38e4YK7hSLIkZmyVkd5qFMQiwYRMmLw7Z/UDdysLC\nAYfYiVOrKvICJMTM0pEMOZXDHMoHfSJ9Z5tldK18dLQEu/x53WSOKoPyQNgzgoXV\n8bUHunRz2NIY+zWwaOiY7x41mItFxgHEHL9rHlbjBBcFJHwHgWQIznzlVCFn40b2\nlxTX2A3jrnumM6Yj7S5RzdRe69LNlY8CRVL1TI5iz+/J4a7LouYpjHkFyo7lBQu7\ns8SMO6uDUXeBEhaFNu+Xky4Qb7kKDuZZha2ITucujLdEDE9cjrJjPr197Ngl0diY\n2NJbAan7zUF6iLhjOifdTQmzyQDmzUGnTscOeNFh8TYhBvyo+S5ptXNhRdgAXldT\nPvu8anp6zHHiqjM1Seo0/lZmivb8B8zAACwUYFISWQWfYH13+mwR4nQ0P/THhd/r\nVbK+aYneka5XcNf5p0Rd+rZZMrVsgBJlXd4MLtKyrn5xM9Zg583z+2GAMQbbWs5l\n7OLVb2X2VlQstAp/J641iwPevFGziLkq6B4VsZs71lEyN9wKrkRgp0KRCO1+zZ7x\n8UihHEnTicccIHwplPA7MfrSQRfKuWrrDAtj3jOPqIutRkqbuQjc6uR+saYNsNxR\nPtvSmPmJMguL9qgSNHdg\n=4Bum\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 5847d3572e0ab415607b32cad56c498061cc85f6\nparent 4c0c55701eded1f9e4fbbc51ec90a543288610b2\nauthor Aditya Chaudhary <188453592+Adityaa-KC@users.noreply.github.com> 1790263202 +0530\ncommitter GitHub <noreply@github.com> 1790263202 +0200\n\nFix micromamba initialization in Codespaces setup (#34985)",
+        "verified_at": "2026-09-24T15:20:02Z"
+      }
+    },
+    "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/ed8f34a8cb1afbd69e48c4634df92f7ae10174a3",
+    "html_url": "https://github.com/scikit-learn/scikit-learn/commit/ed8f34a8cb1afbd69e48c4634df92f7ae10174a3",
+    "comments_url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/ed8f34a8cb1afbd69e48c4634df92f7ae10174a3/comments",
+    "author": {
+      "login": "Adityaa-KC",
+      "id": 188453592,
+      "node_id": "U_kgDOCzuS2A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/188453592?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Adityaa-KC",
+      "html_url": "https://github.com/Adityaa-KC",
+      "followers_url": "https://api.github.com/users/Adityaa-KC/followers",
+      "following_url": "https://api.github.com/users/Adityaa-KC/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Adityaa-KC/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Adityaa-KC/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Adityaa-KC/subscriptions",
+      "organizations_url": "https://api.github.com/users/Adityaa-KC/orgs",
+      "repos_url": "https://api.github.com/users/Adityaa-KC/repos",
+      "events_url": "https://api.github.com/users/Adityaa-KC/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Adityaa-KC/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4c0c55701eded1f9e4fbbc51ec90a543288610b2",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/4c0c55701eded1f9e4fbbc51ec90a543288610b2",
+        "html_url": "https://github.com/scikit-learn/scikit-learn/commit/4c0c55701eded1f9e4fbbc51ec90a543288610b2"
+      }
+    ]
+  },
+  {
+    "sha": "4c0c55701eded1f9e4fbbc51ec90a543288610b2",
+    "node_id": "C_kwDOAAzd1toAKDRjMGM1NTcwMWVkZWQxZjllNGZiYmM1MWVjOTBhNTQzMjg4NjEwYjI",
+    "commit": {
+      "author": {
+        "name": "Olivier Grisel",
+        "email": "olivier.grisel@ensta.org",
+        "date": "2026-09-23T17:44:25Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-23T17:44:25Z"
+      },
+      "message": "DOC fix bad ogp_site_url on the website (#35021)",
+      "tree": {
+        "sha": "97051b6b6185f22bdcc1f6e8c23ffe396deab1f0",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/trees/97051b6b6185f22bdcc1f6e8c23ffe396deab1f0"
+      },
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/commits/4c0c55701eded1f9e4fbbc51ec90a543288610b2",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqtA/5CRC1aQ7uu5UhlAAA3bQQAF6BTxS/JL0/xmhYJEp42YGt\ntdQmpHC2rdt0bNkO4cUyEvvwKnKj1oAMYcsEKHaV01T7s16WT+a2I3IkHgzBYNkn\njmlcGEaFnvrrgopFMHbRvyYLEMGyZwKKiq4B0TdTI+YikNz685jpgriMjE4avt+d\nKmIH83xC2r6tg3pbXLuumlmlxCwOrIrawLiA5GbNsodq+DQs4wJY4npXN8WsuHCy\nfSLjfySXfrQlh69xKuA1s0dcijUtMovbs2+UaqShPNJg7AJF6s6kVuzbBRP5G2pW\nhGPZfLdZ1MKRMTjDX2CNf74MGSoT03ABepHDR2B58NmHlnIte6DMCNz2arpmnklR\n1xVZhRz4XhIH7arnc7kDPk2splLr4KcpaDC6WM4Rw1J4EXF4lWhUNURzirq3fsSs\nCTjAmsoV7BpcDjjj7fh8ovz9ZWGHR0qheJMuBdXIw1XvTm3H2iYTpGt7SPcNsQT9\nDd/V/LBZIUd/Qg1dZKownjmcUMk17lF8pETo9kdJI+VTgl/s94FurJ4vZYocjqVE\ngdQUHQ/1H/BXNQ+8Z0VFozGZ4Mi+YOW2VEQ3RU8VehEfzgb3FsSdLnB7qyK+2Kwh\ndIuyjeTaUprInCRnvEI2I7o5Xmxw29LDmx2wR3+VNHmRtLgDR6j79uqRobfEGPq4\njKqjHo4593LF/4nFxVX/\n=mkdv\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 97051b6b6185f22bdcc1f6e8c23ffe396deab1f0\nparent 935c7e23ea7f701d7534bbd40e79fbd2b3f3841a\nauthor Olivier Grisel <olivier.grisel@ensta.org> 1790185465 +0200\ncommitter GitHub <noreply@github.com> 1790185465 -0700\n\nDOC fix bad ogp_site_url on the website (#35021)",
+        "verified_at": "2026-09-23T17:44:25Z"
+      }
+    },
+    "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/4c0c55701eded1f9e4fbbc51ec90a543288610b2",
+    "html_url": "https://github.com/scikit-learn/scikit-learn/commit/4c0c55701eded1f9e4fbbc51ec90a543288610b2",
+    "comments_url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/4c0c55701eded1f9e4fbbc51ec90a543288610b2/comments",
+    "author": {
+      "login": "ogrisel",
+      "id": 89061,
+      "node_id": "MDQ6VXNlcjg5MDYx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89061?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ogrisel",
+      "html_url": "https://github.com/ogrisel",
+      "followers_url": "https://api.github.com/users/ogrisel/followers",
+      "following_url": "https://api.github.com/users/ogrisel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ogrisel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ogrisel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ogrisel/subscriptions",
+      "organizations_url": "https://api.github.com/users/ogrisel/orgs",
+      "repos_url": "https://api.github.com/users/ogrisel/repos",
+      "events_url": "https://api.github.com/users/ogrisel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ogrisel/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "935c7e23ea7f701d7534bbd40e79fbd2b3f3841a",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/935c7e23ea7f701d7534bbd40e79fbd2b3f3841a",
+        "html_url": "https://github.com/scikit-learn/scikit-learn/commit/935c7e23ea7f701d7534bbd40e79fbd2b3f3841a"
+      }
+    ]
+  },
+  {
+    "sha": "935c7e23ea7f701d7534bbd40e79fbd2b3f3841a",
+    "node_id": "C_kwDOAAzd1toAKDkzNWM3ZTIzZWE3ZjcwMWQ3NTM0YmJkNDBlNzlmYmQyYjNmMzg0MWE",
+    "commit": {
+      "author": {
+        "name": "Eric Larson",
+        "email": "larson.eric.d@gmail.com",
+        "date": "2026-09-23T16:26:06Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-23T16:26:06Z"
+      },
+      "message": "CI Speed up doc build (#34718)\n\nCo-authored-by: J\u00e9r\u00e9mie du Boisberranger <jeremie@probabl.ai>\nCo-authored-by: Stefanie Senger <91849487+StefanieSenger@users.noreply.github.com>",
+      "tree": {
+        "sha": "d265fc5868dc0f24f3bea6592a28b7bf71a6b680",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/trees/d265fc5868dc0f24f3bea6592a28b7bf71a6b680"
+      },
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/commits/935c7e23ea7f701d7534bbd40e79fbd2b3f3841a",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqs/2eCRC1aQ7uu5UhlAAAVesQAKrM5z8u/hN+QrFtpY83Pr5o\nYfBJrD8bqrwwaSbbuwVZSsDxVNmukWa/TJMJ1irPSH5KSwYFLyPBPKC4w2NYndnV\np58IRDoNZrXhICbNVF01hP2OtHetUqTuBV/G3IkVFa/FwcL+O+gnN6N8nw/d70Xf\n4e3lxNU+oa/LNWnmB8JkTWnADOY1M5h9tsMcKGIo6uR/SstZiPCCcp39RtxQ4nKH\nUaZYU6A/VZiVMnbC8BU6G1WKee4C1PLo0K4+AvNelKVEwl6hXc6IxSHRmjcvTgLD\nHCgH8DmS1zxO9SsUKmyN6w7Hg40teMPlVtHOY3TQ1ovsVd7+lCUmFG5HlrfN/IXb\n5xQaB0fHsbmMIQKUl9ZMDwXg6nhU6Gaq7kWmdIfJlRkwQxpmpwHCqkVXqG6T5bXR\nZBHaCpo9Ke7EzjoUXPa5fUPEVEms1yPpmTOz8XzXlK+bI5n1Bs+jvfsPJM5HhdoZ\nUaJ/687Fow2UC0i3zZDU/xL0q7MoTEhRaXBG9tNrNFzocQ4FeURVkey6bUNoDad1\ngdp5gssaKatZlrNqk3ECUulsd2F3piMwS3lAqPCXVPXaRnAJ6Jvj/KCjGtl0OwXe\nwaJa3z1fFEZhUBaZ0n6ytFjEEyT9vkpjvr/joLLkFHdB8zxoty27C/SKZc20ZK0g\ndLCo1geIEth2eghnTGuR\n=g1EJ\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree d265fc5868dc0f24f3bea6592a28b7bf71a6b680\nparent 2df5847f9c9722fbd333dfc1147f99b9d8de4c74\nauthor Eric Larson <larson.eric.d@gmail.com> 1790180766 -0400\ncommitter GitHub <noreply@github.com> 1790180766 +0000\n\nCI Speed up doc build (#34718)\n\nCo-authored-by: J\u00e9r\u00e9mie du Boisberranger <jeremie@probabl.ai>\nCo-authored-by: Stefanie Senger <91849487+StefanieSenger@users.noreply.github.com>",
+        "verified_at": "2026-09-23T16:26:07Z"
+      }
+    },
+    "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/935c7e23ea7f701d7534bbd40e79fbd2b3f3841a",
+    "html_url": "https://github.com/scikit-learn/scikit-learn/commit/935c7e23ea7f701d7534bbd40e79fbd2b3f3841a",
+    "comments_url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/935c7e23ea7f701d7534bbd40e79fbd2b3f3841a/comments",
+    "author": {
+      "login": "larsoner",
+      "id": 2365790,
+      "node_id": "MDQ6VXNlcjIzNjU3OTA=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2365790?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/larsoner",
+      "html_url": "https://github.com/larsoner",
+      "followers_url": "https://api.github.com/users/larsoner/followers",
+      "following_url": "https://api.github.com/users/larsoner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/larsoner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/larsoner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/larsoner/subscriptions",
+      "organizations_url": "https://api.github.com/users/larsoner/orgs",
+      "repos_url": "https://api.github.com/users/larsoner/repos",
+      "events_url": "https://api.github.com/users/larsoner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/larsoner/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2df5847f9c9722fbd333dfc1147f99b9d8de4c74",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/2df5847f9c9722fbd333dfc1147f99b9d8de4c74",
+        "html_url": "https://github.com/scikit-learn/scikit-learn/commit/2df5847f9c9722fbd333dfc1147f99b9d8de4c74"
+      }
+    ]
+  },
+  {
+    "sha": "2df5847f9c9722fbd333dfc1147f99b9d8de4c74",
+    "node_id": "C_kwDOAAzd1toAKDJkZjU4NDdmOWM5NzIyZmJkMzMzZGZjMTE0N2Y5OWI5ZDhkZTRjNzQ",
+    "commit": {
+      "author": {
+        "name": "Stefanie Senger",
+        "email": "91849487+StefanieSenger@users.noreply.github.com",
+        "date": "2026-09-22T17:24:58Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-22T17:24:58Z"
+      },
+      "message": "DOC Add links to metadata routing user guide (#34826)",
+      "tree": {
+        "sha": "a5903d514d9f5b84ec4095b5e6894c08f0b7ea15",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/trees/a5903d514d9f5b84ec4095b5e6894c08f0b7ea15"
+      },
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/commits/2df5847f9c9722fbd333dfc1147f99b9d8de4c74",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqsrnqCRC1aQ7uu5UhlAAA0VwQAEuOcbUgjcoAv3ZeOOEOZwx+\nA/xSfHmW3L9BtxVmk7Q8oWJ/MaACOQs5LIuQmOvbFhmTYGCzG20YFK+0lpVkVqQl\n2G4wSMJV52g62g7hqqveOaQQYfI37MItWc1SphqAkUkE8tMU40hvz0L2FZZkDO99\n57fQLqKqCOkwY9lwGwEQo/gkgj7KAU6iU/ArIlGOiOUJDap8eb1hArBrnswDoOPR\nRKxNGlVM34boTKR34VqSRkQwc2hM35TawwbUqGQAE5PxP428xZnoZh/1iitJic8y\ntccnVtXpyYNGpU2Urh+7X9M344tOkf8PaPwVpWYGXbCqgIszi33KjVM/RTbtOUjN\niEUSFMUS352A73GZJUzzeUtBl++xitWgcUP4nfabDAdjyIRZX5sQ5dSTquAUw2su\n4UzWIv3/spGf8mRNIXAyYCNn08TzKSgP9+05x5TalWmbm239IW+p3p0Gd2LR6hYk\n5su5FqtNWnGCKHtgQSdOaq6oso9zLw68OBf8SwuUUxs63kg7wmh5GHbIBIOoxwqF\nmBaMaktfE/0DjFp+eTCt3nfejkZMI3/weh6EyYXORTi1+cs+cppB3hyprGqFYR3Q\n66UXi8zzlRQiKS/vPHqKkUbdq1Ax56JcKOL5x+BL7N4g4pdouVxVHslpozhK0nC8\nDGe/4/Rm2TOw0EyFdCAa\n=qzSc\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree a5903d514d9f5b84ec4095b5e6894c08f0b7ea15\nparent 33eb036d3f2927c25ff3cd798311d9d336a1c848\nauthor Stefanie Senger <91849487+StefanieSenger@users.noreply.github.com> 1790097898 +0200\ncommitter GitHub <noreply@github.com> 1790097898 +0000\n\nDOC Add links to metadata routing user guide (#34826)",
+        "verified_at": "2026-09-22T17:24:59Z"
+      }
+    },
+    "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/2df5847f9c9722fbd333dfc1147f99b9d8de4c74",
+    "html_url": "https://github.com/scikit-learn/scikit-learn/commit/2df5847f9c9722fbd333dfc1147f99b9d8de4c74",
+    "comments_url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/2df5847f9c9722fbd333dfc1147f99b9d8de4c74/comments",
+    "author": {
+      "login": "StefanieSenger",
+      "id": 91849487,
+      "node_id": "U_kgDOBXmDDw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/91849487?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/StefanieSenger",
+      "html_url": "https://github.com/StefanieSenger",
+      "followers_url": "https://api.github.com/users/StefanieSenger/followers",
+      "following_url": "https://api.github.com/users/StefanieSenger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/StefanieSenger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/StefanieSenger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/StefanieSenger/subscriptions",
+      "organizations_url": "https://api.github.com/users/StefanieSenger/orgs",
+      "repos_url": "https://api.github.com/users/StefanieSenger/repos",
+      "events_url": "https://api.github.com/users/StefanieSenger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/StefanieSenger/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "33eb036d3f2927c25ff3cd798311d9d336a1c848",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/33eb036d3f2927c25ff3cd798311d9d336a1c848",
+        "html_url": "https://github.com/scikit-learn/scikit-learn/commit/33eb036d3f2927c25ff3cd798311d9d336a1c848"
+      }
+    ]
+  },
+  {
+    "sha": "33eb036d3f2927c25ff3cd798311d9d336a1c848",
+    "node_id": "C_kwDOAAzd1toAKDMzZWIwMzZkM2YyOTI3YzI1ZmYzY2Q3OTgzMTFkOWQzMzZhMWM4NDg",
+    "commit": {
+      "author": {
+        "name": "Adrin Jalali",
+        "email": "adrin.jalali@gmail.com",
+        "date": "2026-09-22T13:46:55Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-22T13:46:55Z"
+      },
+      "message": "FEAT (alt3) allow setting auto routed strategy on objects (#31413)\n\nCo-authored-by: Stefanie Senger <91849487+StefanieSenger@users.noreply.github.com>\nCo-authored-by: Stefanie Senger <stefanie.senger@posteo.de>\nCo-authored-by: antoinebaker <antoinebaker@users.noreply.github.com>",
+      "tree": {
+        "sha": "0ac793664150bc54193d4cf855367ee29765dcbc",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/trees/0ac793664150bc54193d4cf855367ee29765dcbc"
+      },
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/commits/33eb036d3f2927c25ff3cd798311d9d336a1c848",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqsobPCRC1aQ7uu5UhlAAA1pMQAIhuBAvRaChI2VirDrgZeF5b\nAo+buiVqhl/Njef7/ouk1eFVNA0rGm7IQnOXbg1kK7z+E6chh3+Q/R53zVytwNQ3\nfEbMyx83hV4Gkb5vCLXb3Abi7ynwlI+MnyokjVk/t3CtoYQJsI1IsN+qH2aVyAR2\nq0vb9ffWiv8CU2QvEVb1Z5vtIdPqcMhP69PoJ5rYcgFwSrUQGJY5ouZ7cpzdEX7x\nN2gkTR7AuAPIUKqs4l/zwQ61OlqmKNyoE20cPBdER/8OqapuuRQbf4tKYDFCr6h0\no1yKYJNsE/KzdwShjK8APW25IpTUvIPVSHUTVpxVEbb7UFiTiePreWnBLXJYxwgu\n19YBdC2Zn6LaUOn/CEOmA1iPRaFBZY7Ds4IrfipDP7t4dXlXq72maCUOpMRLZ9VO\nvg5hkz9DQ1TCSkhEbi9kCvVBiDDZ0QkXQ5St9omPNehSK/06VCl7572PK55XNE0e\n8LdK70m5R54Xg3kwbHicguABWnpdfKypLTaadjNRq39Mh4bH6xMIac9peujEHuG7\nrMjqChu67omrkMA0g2FvYm+0VUTNwoD+6MeeVo+5q8GaUvQ8EqeqZIMM3r4yHXQj\nMuR30E3OyZLjoFXUrTR9c9wLTL2XyQmVT/6l5Iuk5h2j1rngNAprWyD+dvdFdtSB\nI7JLXtOIuuBme/NaudQL\n=C6CX\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 0ac793664150bc54193d4cf855367ee29765dcbc\nparent a0caac8fa0421b74378162e0a110581706a99a26\nauthor Adrin Jalali <adrin.jalali@gmail.com> 1790084815 +0200\ncommitter GitHub <noreply@github.com> 1790084815 +0200\n\nFEAT (alt3) allow setting auto routed strategy on objects (#31413)\n\nCo-authored-by: Stefanie Senger <91849487+StefanieSenger@users.noreply.github.com>\nCo-authored-by: Stefanie Senger <stefanie.senger@posteo.de>\nCo-authored-by: antoinebaker <antoinebaker@users.noreply.github.com>",
+        "verified_at": "2026-09-22T13:46:55Z"
+      }
+    },
+    "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/33eb036d3f2927c25ff3cd798311d9d336a1c848",
+    "html_url": "https://github.com/scikit-learn/scikit-learn/commit/33eb036d3f2927c25ff3cd798311d9d336a1c848",
+    "comments_url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/33eb036d3f2927c25ff3cd798311d9d336a1c848/comments",
+    "author": {
+      "login": "adrinjalali",
+      "id": 1663864,
+      "node_id": "MDQ6VXNlcjE2NjM4NjQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1663864?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adrinjalali",
+      "html_url": "https://github.com/adrinjalali",
+      "followers_url": "https://api.github.com/users/adrinjalali/followers",
+      "following_url": "https://api.github.com/users/adrinjalali/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adrinjalali/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adrinjalali/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adrinjalali/subscriptions",
+      "organizations_url": "https://api.github.com/users/adrinjalali/orgs",
+      "repos_url": "https://api.github.com/users/adrinjalali/repos",
+      "events_url": "https://api.github.com/users/adrinjalali/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adrinjalali/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a0caac8fa0421b74378162e0a110581706a99a26",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/a0caac8fa0421b74378162e0a110581706a99a26",
+        "html_url": "https://github.com/scikit-learn/scikit-learn/commit/a0caac8fa0421b74378162e0a110581706a99a26"
+      }
+    ]
+  },
+  {
+    "sha": "a0caac8fa0421b74378162e0a110581706a99a26",
+    "node_id": "C_kwDOAAzd1toAKGEwY2FhYzhmYTA0MjFiNzQzNzgxNjJlMGExMTA1ODE3MDZhOTlhMjY",
+    "commit": {
+      "author": {
+        "name": "antoinebaker",
+        "email": "antoinebaker@users.noreply.github.com",
+        "date": "2026-09-22T11:03:36Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-22T11:03:36Z"
+      },
+      "message": "DOC Document that HGBT min_samples_leaf ignores sample_weight (#34838)",
+      "tree": {
+        "sha": "10f44c1f78d1c43a232631a07f1a48d652642fb8",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/trees/10f44c1f78d1c43a232631a07f1a48d652642fb8"
+      },
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/commits/a0caac8fa0421b74378162e0a110581706a99a26",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqsmCICRC1aQ7uu5UhlAAAux0QAEpxti9lzH3JjHhs51xcKQQP\ntEPwoKqoKatqG+kOfGzptv2QIaNnmqcr5fS/zJ5fq6UQihMH8n60NGK/me2pIJL+\npjxRFYzxqi0cb0Lz284cT9KruPsPElw0axfZq3h873N+jgRMG1EwCIyWiMhCFPPa\nx+CpWPhsHPv95R9xExYUb5tTOt8hLecspoMmLyjlqzW6nepoAL+JYmpoF0SiO3uo\nPDrPkFAytqwmu03s+efY2CNGyWm5zXLGmoaMQB3tIlI4o2J51FOG0rVU2BnMQ/OX\nAK9klzurjBWLMt6bWUWfBTDytD5a/tAgz4FsadU9GD1BeQELPRCrOVXrTZp6brrx\nmeturTMla4D1N3Uws7yBtatIqGX0ZRRw0qIhPAnMnfxjvdg8ILnZR4D5WZocyPNA\n7rtndgDLhhfLQzYy86AEFsJ5RYUBE03Hy7LQ3r4quLRe5PO1uKbGG4E1HBQKKkk7\nIBBlsDgOcHudwGAI1YRRmbJH6iLysfN8qKFdIsCw4js/nl5MkMYny6KYBzsFPoHN\nLvz8Ez3w0+HRBFlx+4YsW7UGvwQLInuNNvK6XdBP46u3ARmjQ84dMJ4W5dqsnJ8e\nlqouur/xcxcKK71e0HLBvtAC7KbaTsqZPiWIZFRASDIDuqXRsv3ZITnQdRaQp645\nlZy52MIn2vE/GidkYOqk\n=e81u\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 10f44c1f78d1c43a232631a07f1a48d652642fb8\nparent a5046923f202f84cc1617f4ea555431194c52836\nauthor antoinebaker <antoinebaker@users.noreply.github.com> 1790075016 +0200\ncommitter GitHub <noreply@github.com> 1790075016 +0200\n\nDOC Document that HGBT min_samples_leaf ignores sample_weight (#34838)",
+        "verified_at": "2026-09-22T11:03:36Z"
+      }
+    },
+    "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/a0caac8fa0421b74378162e0a110581706a99a26",
+    "html_url": "https://github.com/scikit-learn/scikit-learn/commit/a0caac8fa0421b74378162e0a110581706a99a26",
+    "comments_url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/a0caac8fa0421b74378162e0a110581706a99a26/comments",
+    "author": {
+      "login": "antoinebaker",
+      "id": 8403898,
+      "node_id": "MDQ6VXNlcjg0MDM4OTg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8403898?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antoinebaker",
+      "html_url": "https://github.com/antoinebaker",
+      "followers_url": "https://api.github.com/users/antoinebaker/followers",
+      "following_url": "https://api.github.com/users/antoinebaker/following{/other_user}",
+      "gists_url": "https://api.github.com/users/antoinebaker/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/antoinebaker/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/antoinebaker/subscriptions",
+      "organizations_url": "https://api.github.com/users/antoinebaker/orgs",
+      "repos_url": "https://api.github.com/users/antoinebaker/repos",
+      "events_url": "https://api.github.com/users/antoinebaker/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/antoinebaker/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a5046923f202f84cc1617f4ea555431194c52836",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/a5046923f202f84cc1617f4ea555431194c52836",
+        "html_url": "https://github.com/scikit-learn/scikit-learn/commit/a5046923f202f84cc1617f4ea555431194c52836"
+      }
+    ]
+  },
+  {
+    "sha": "a5046923f202f84cc1617f4ea555431194c52836",
+    "node_id": "C_kwDOAAzd1toAKGE1MDQ2OTIzZjIwMmY4NGNjMTYxN2Y0ZWE1NTU0MzExOTRjNTI4MzY",
+    "commit": {
+      "author": {
+        "name": "Christian Lorentzen",
+        "email": "lorentzen.ch@gmail.com",
+        "date": "2026-09-21T14:56:12Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-21T14:56:12Z"
+      },
+      "message": "FIX SplineTransformer with missing values (#33953)",
+      "tree": {
+        "sha": "e1d98a445d9130fb7d0268ec249f56e2ed8ad4cd",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/trees/e1d98a445d9130fb7d0268ec249f56e2ed8ad4cd"
+      },
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/commits/a5046923f202f84cc1617f4ea555431194c52836",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqsUWMCRC1aQ7uu5UhlAAAITIQAK0umRwoFA8x0xXwBzEsB9Xn\nuMlFA+uVz6O68/KQR3qwm+MVqAanopkm7YT7YH/W0FT9NCMwGJStM1As4A532waE\nufc7oIQllmivyqzpY+eu77NlawsOuBDhnTGmxtVXDJV5DVaOpWHZ3wX7436lrbGf\nSFQe8d4qYdtBzeyKMUPad5609mz4SB8kxDZbGsE1zRaikcGwEJh8tboeG98iXXCe\nmoiCoBmRbcpUgmf8+SO4Dlf7yNkphuB/5hj3Wupgc7X/ORLFgzNiVcPPj+3R2qqO\nQFw2wjfN14H0Tr6xlQIUFgpEpSm8jjSX/XIyQGrzyFtwkbtK5mfof02ZjTnEp1L3\nl0IBfnpWAvaIHO/FJ0wTgLlLlKTaoKl5cnPt5FISv3IYlhL59xqldxtPClSb4jw0\ny9w+Ggi5/hZvtlpfal365TLWluJ8tPDasOxLYgRptsZyByhibODPvnqyJn5CzQrE\nA+MUvW9OsmpqdS6z+x8RynBe2vKPXk7cpqoppvs7Hx2tpH86crr5Z/u7Dse55kPD\nDYFqmA3puOx8TkHshlV+yxOL8b8OSZmSVdmYqdiq2B5I/POmY8fYjDF9nTAIoeWz\nwJeaW4etO1NC1NfpejSjTBfmrEGM1Dm4iPC1z7b7XJBlu/l/U/lZplWAZtdWK7qp\nmyJH0ITuonb5tTRvEarm\n=ufV/\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e1d98a445d9130fb7d0268ec249f56e2ed8ad4cd\nparent d059607efd6de710a059563e33cea5df9b915d10\nauthor Christian Lorentzen <lorentzen.ch@gmail.com> 1790002572 +0200\ncommitter GitHub <noreply@github.com> 1790002572 +0200\n\nFIX SplineTransformer with missing values (#33953)",
+        "verified_at": "2026-09-21T14:56:13Z"
+      }
+    },
+    "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/a5046923f202f84cc1617f4ea555431194c52836",
+    "html_url": "https://github.com/scikit-learn/scikit-learn/commit/a5046923f202f84cc1617f4ea555431194c52836",
+    "comments_url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/a5046923f202f84cc1617f4ea555431194c52836/comments",
+    "author": {
+      "login": "lorentzenchr",
+      "id": 15324633,
+      "node_id": "MDQ6VXNlcjE1MzI0NjMz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15324633?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lorentzenchr",
+      "html_url": "https://github.com/lorentzenchr",
+      "followers_url": "https://api.github.com/users/lorentzenchr/followers",
+      "following_url": "https://api.github.com/users/lorentzenchr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lorentzenchr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lorentzenchr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lorentzenchr/subscriptions",
+      "organizations_url": "https://api.github.com/users/lorentzenchr/orgs",
+      "repos_url": "https://api.github.com/users/lorentzenchr/repos",
+      "events_url": "https://api.github.com/users/lorentzenchr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lorentzenchr/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d059607efd6de710a059563e33cea5df9b915d10",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/d059607efd6de710a059563e33cea5df9b915d10",
+        "html_url": "https://github.com/scikit-learn/scikit-learn/commit/d059607efd6de710a059563e33cea5df9b915d10"
+      }
+    ]
+  },
+  {
+    "sha": "d059607efd6de710a059563e33cea5df9b915d10",
+    "node_id": "C_kwDOAAzd1toAKGQwNTk2MDdlZmQ2ZGU3MTBhMDU5NTYzZTMzY2VhNWRmOWI5MTVkMTA",
+    "commit": {
+      "author": {
+        "name": "J\u00e9r\u00e9mie du Boisberranger",
+        "email": "jeremie@probabl.ai",
+        "date": "2026-09-21T14:21:32Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-21T14:21:32Z"
+      },
+      "message": "CI Turn sphinx warnings into errors on pushes to main (#34933)\n\nCo-authored-by: Olivier Grisel <olivier.grisel@ensta.org>",
+      "tree": {
+        "sha": "b1589bee85a727aa5940e6c6e52c5d2806818a3d",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/trees/b1589bee85a727aa5940e6c6e52c5d2806818a3d"
+      },
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/commits/d059607efd6de710a059563e33cea5df9b915d10",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqsT1sCRC1aQ7uu5UhlAAA+R4QAJXThxeyY6DDsrM6GGnMeRKS\niUzty89wIf+z5gg2Ckj+6BvWyt+k+547HQ9uKdPnHswIGV5sPqtAy2OyI+74jYu5\n+4ZcHVoY+W+1FkySdpu38vdcyPNB9EAWm3jYC1D5vehzT2NtDcbyr96+MIopvd1l\no2IhRf34FBTeuFJ7HP4HcalQcDOMb/G38qoYvTtOhROYE3Om3P4tlW5U/nIq4bFM\nie/HlBP4iVgr3g1qDmavYEGY875/v3kSlMVbGr55jfhad6eZ3eNTkmN3DDBWEjBX\n07SrQR69EPsyuN22UCORygNz3JMlpUB0qQY/jcNdnxbxjSykPX1+7yBZOBZwW67C\nUyGyJxiUHsh0pvy7RyvYna3o3xIiJ4RFK3+5A1qK66q+/oGBVNdE/0qnBXH1rxc2\n9ZyetBbEU54n6brPmwROYvj/zmoQrE8gQjKqOL5nhFVu81/8Ode2aIw0A20W+02d\nyNbL53A/ozS+pv9Cy0s6jABNt8AXu9IgVs1QcO6eUVXhxLT/KYGUwFzZEPASX+iW\nLudeU17DYWYHaLLDCGMoiMX3sguYvdHhvjZvu4MZ0HZ4on44ld3CDFHX4rMiJMaD\n7ZRMpNRkGAcjdFqz7S99yabWTW/CcPn4LsmHg3XhVo2ZFuUeFomnn/f97U34fbyl\n5XuyhYTWDRGSajPTr7BG\n=MRom\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b1589bee85a727aa5940e6c6e52c5d2806818a3d\nparent 5f2263132d0cef0bf8ea147162c9326c1470eec1\nauthor J\u00e9r\u00e9mie du Boisberranger <jeremie@probabl.ai> 1790000492 +0200\ncommitter GitHub <noreply@github.com> 1790000492 +0200\n\nCI Turn sphinx warnings into errors on pushes to main (#34933)\n\nCo-authored-by: Olivier Grisel <olivier.grisel@ensta.org>",
+        "verified_at": "2026-09-21T14:21:33Z"
+      }
+    },
+    "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/d059607efd6de710a059563e33cea5df9b915d10",
+    "html_url": "https://github.com/scikit-learn/scikit-learn/commit/d059607efd6de710a059563e33cea5df9b915d10",
+    "comments_url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/d059607efd6de710a059563e33cea5df9b915d10/comments",
+    "author": {
+      "login": "jeremiedbb",
+      "id": 34657725,
+      "node_id": "MDQ6VXNlcjM0NjU3NzI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34657725?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jeremiedbb",
+      "html_url": "https://github.com/jeremiedbb",
+      "followers_url": "https://api.github.com/users/jeremiedbb/followers",
+      "following_url": "https://api.github.com/users/jeremiedbb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeremiedbb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeremiedbb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeremiedbb/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeremiedbb/orgs",
+      "repos_url": "https://api.github.com/users/jeremiedbb/repos",
+      "events_url": "https://api.github.com/users/jeremiedbb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeremiedbb/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5f2263132d0cef0bf8ea147162c9326c1470eec1",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/5f2263132d0cef0bf8ea147162c9326c1470eec1",
+        "html_url": "https://github.com/scikit-learn/scikit-learn/commit/5f2263132d0cef0bf8ea147162c9326c1470eec1"
+      }
+    ]
+  },
+  {
+    "sha": "5f2263132d0cef0bf8ea147162c9326c1470eec1",
+    "node_id": "C_kwDOAAzd1toAKDVmMjI2MzEzMmQwY2VmMGJmOGVhMTQ3MTYyYzkzMjZjMTQ3MGVlYzE",
+    "commit": {
+      "author": {
+        "name": "Abhimanyu Singh Shekhawat",
+        "email": "abhimanyu-bitsgoa@users.noreply.github.com",
+        "date": "2026-09-21T13:04:37Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-21T13:04:37Z"
+      },
+      "message": "Fix Pandas output path fails to reject infinite values during transform   (#34513)\n\nCo-authored-by: Stefanie Senger <stefanie.senger@posteo.de>\nCo-authored-by: Stefanie Senger <91849487+StefanieSenger@users.noreply.github.com>",
+      "tree": {
+        "sha": "3ae47cfcc5984a975a4ad584e2e3eb571d6108b6",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/trees/3ae47cfcc5984a975a4ad584e2e3eb571d6108b6"
+      },
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/commits/5f2263132d0cef0bf8ea147162c9326c1470eec1",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqsStlCRC1aQ7uu5UhlAAAaJ8QAFCFJQU2pdIgoIpdeV6QCobh\nCa4Rroy6yt66AKtBdFYstX5mETsbLPWqsQ8Ph4oymLFUth6HZjSCqUnd5DrNiD94\nkS/F6dPhOrTbKMHxDvfupM3libx2vWH7e0YMqoQ+zrnP43FyJGzNdkq2vdy1sXip\nTpRpxVxN/vcL8WJuSbbJMW811nwBBUBRoN75rXNc2UmSe9RcNaZSCsJ/r63gN98L\nTin5XdVH8mXCRTXSgbnn2sHQLEIV4ypO48mtp2kp/cSYF9WCdHh1WyWJdxg+qK7t\nSs84MpoDLQ4tDUUQU1N2PvoTuezXoUC/PKmuNweYD1ot2EQCrqqlqvRrTrvXzboQ\nqTRVo/lSaOp9mwTEkosYy65H20pLFiOXcoeqNgmmTsBMdXM4Huo3mWLRH/xKpV2M\nJiZeOgyIKwbdpI/sewOOAt5Ds9ikz5qcZe3+m5lvt83tEmYq5/kRy6uPS5XTI/ND\nmAg+BYimt8jJpLKtM4sI1mzC6JXgdUn0SdWQKN6Xg8P1uHhtWSZkYy6XfIPiii+9\nihgq01MFhA4+s+456e0AyXmXpt7oYJdkomqTCowQj0LGbO++JHeDM13rd9A96bZ4\nSIa1RJqRzPyoc4wBk5lfsdd+DG6Ed+5mVPUAnXr4G9HQ+3SFsdx+BI+nl781ae0M\n90OEDiDjLiJ29Ye4P+S+\n=/LyX\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 3ae47cfcc5984a975a4ad584e2e3eb571d6108b6\nparent ff9a412cc29c4df25470d51b01a23cb1684693b1\nauthor Abhimanyu Singh Shekhawat <abhimanyu-bitsgoa@users.noreply.github.com> 1789995877 +0530\ncommitter GitHub <noreply@github.com> 1789995877 +0200\n\nFix Pandas output path fails to reject infinite values during transform   (#34513)\n\nCo-authored-by: Stefanie Senger <stefanie.senger@posteo.de>\nCo-authored-by: Stefanie Senger <91849487+StefanieSenger@users.noreply.github.com>",
+        "verified_at": "2026-09-21T13:04:37Z"
+      }
+    },
+    "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/5f2263132d0cef0bf8ea147162c9326c1470eec1",
+    "html_url": "https://github.com/scikit-learn/scikit-learn/commit/5f2263132d0cef0bf8ea147162c9326c1470eec1",
+    "comments_url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/5f2263132d0cef0bf8ea147162c9326c1470eec1/comments",
+    "author": {
+      "login": "abhimanyu-bitsgoa",
+      "id": 13154079,
+      "node_id": "MDQ6VXNlcjEzMTU0MDc5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13154079?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/abhimanyu-bitsgoa",
+      "html_url": "https://github.com/abhimanyu-bitsgoa",
+      "followers_url": "https://api.github.com/users/abhimanyu-bitsgoa/followers",
+      "following_url": "https://api.github.com/users/abhimanyu-bitsgoa/following{/other_user}",
+      "gists_url": "https://api.github.com/users/abhimanyu-bitsgoa/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/abhimanyu-bitsgoa/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/abhimanyu-bitsgoa/subscriptions",
+      "organizations_url": "https://api.github.com/users/abhimanyu-bitsgoa/orgs",
+      "repos_url": "https://api.github.com/users/abhimanyu-bitsgoa/repos",
+      "events_url": "https://api.github.com/users/abhimanyu-bitsgoa/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/abhimanyu-bitsgoa/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ff9a412cc29c4df25470d51b01a23cb1684693b1",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/ff9a412cc29c4df25470d51b01a23cb1684693b1",
+        "html_url": "https://github.com/scikit-learn/scikit-learn/commit/ff9a412cc29c4df25470d51b01a23cb1684693b1"
+      }
+    ]
+  },
+  {
+    "sha": "ff9a412cc29c4df25470d51b01a23cb1684693b1",
+    "node_id": "C_kwDOAAzd1toAKGZmOWE0MTJjYzI5YzRkZjI1NDcwZDUxYjAxYTIzY2IxNjg0NjkzYjE",
+    "commit": {
+      "author": {
+        "name": "Arthur Lacote",
+        "email": "arthur.lcte@gmail.com",
+        "date": "2026-09-21T12:56:44Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-21T12:56:44Z"
+      },
+      "message": "MNT Remove dead negative-value-as-missing convention for categorical features in HGB (#34663)\n\nCo-authored-by: Anne Beyer <anne.beyer@mailbox.org>",
+      "tree": {
+        "sha": "e7fcf2470897928847cd7a4d4ac48c12ae1ceaf4",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/trees/e7fcf2470897928847cd7a4d4ac48c12ae1ceaf4"
+      },
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/commits/ff9a412cc29c4df25470d51b01a23cb1684693b1",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqsSmMCRC1aQ7uu5UhlAAA2oUQAGvtxPyCLibXBkZfDxV0GJpQ\nqlwjD3byc4ruKCeUIMyzcmmuQAHeuMtjA9015k5EtVy9I6fvwmlpYPu0yw3Cs9aS\np6ZKuhEslUTRFAIJzBFUAHwI3SFXIXFFXel988eKbBDszQKju7FdxaK3UzSTalMu\nFiO5yBEl/a342FcwqHGJq+/EpXTmqwCHjROhn+w3+1vyjQPxn9csPvyZUnyxXZNl\n9f2zpko24bZ2Ldb9ppLXczdzcQiHMOqx3FRQcBC1JBdIrr2zjyQz8N1aw0Lo80tm\nV8feo+0HWD5euX6Nxwjd+9luFo5MeVAMbvuC+4qSMjZylZNFUwQzpfRX+TvEIQ46\njFao5XRQbkc3OSuslQoJhgi0aBVhBBzO4eRrfcLwppZkNW7bP3D99+hLdmjLCgvr\nBDayhlTLgKP1GVIP+a7XPFmzZJkdEnf6WmCRyoubhpFnaFqrzSlSIafmGD1qx/ON\n7TSl1WH/BFwwv6JwtdDeAE7Inw28fpmOKn+on33hsLmRGWqzYE3+XOk2wl9piOje\nm8zc6soeuYVYX61RnkeJoNWqokwveL5TxK+HEsyUqLVoAVqUNt+JoaeMxAQbyxMr\nWRnxRZqiS/Tr8IEHCZpZZ6ye+fu6szGIrmElnoK0+Osy91q0ifnm0aQvzrS/rv5Q\nNj03com7m5VuragDcOyp\n=TEgv\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e7fcf2470897928847cd7a4d4ac48c12ae1ceaf4\nparent 777337db0b7119ecb110579af1dc52027c50d006\nauthor Arthur Lacote <arthur.lcte@gmail.com> 1789995404 +0200\ncommitter GitHub <noreply@github.com> 1789995404 +0200\n\nMNT Remove dead negative-value-as-missing convention for categorical features in HGB (#34663)\n\nCo-authored-by: Anne Beyer <anne.beyer@mailbox.org>",
+        "verified_at": "2026-09-21T12:56:45Z"
+      }
+    },
+    "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/ff9a412cc29c4df25470d51b01a23cb1684693b1",
+    "html_url": "https://github.com/scikit-learn/scikit-learn/commit/ff9a412cc29c4df25470d51b01a23cb1684693b1",
+    "comments_url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/ff9a412cc29c4df25470d51b01a23cb1684693b1/comments",
+    "author": {
+      "login": "cakedev0",
+      "id": 25986961,
+      "node_id": "MDQ6VXNlcjI1OTg2OTYx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25986961?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cakedev0",
+      "html_url": "https://github.com/cakedev0",
+      "followers_url": "https://api.github.com/users/cakedev0/followers",
+      "following_url": "https://api.github.com/users/cakedev0/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cakedev0/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cakedev0/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cakedev0/subscriptions",
+      "organizations_url": "https://api.github.com/users/cakedev0/orgs",
+      "repos_url": "https://api.github.com/users/cakedev0/repos",
+      "events_url": "https://api.github.com/users/cakedev0/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cakedev0/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "777337db0b7119ecb110579af1dc52027c50d006",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/777337db0b7119ecb110579af1dc52027c50d006",
+        "html_url": "https://github.com/scikit-learn/scikit-learn/commit/777337db0b7119ecb110579af1dc52027c50d006"
+      }
+    ]
+  },
+  {
+    "sha": "777337db0b7119ecb110579af1dc52027c50d006",
+    "node_id": "C_kwDOAAzd1toAKDc3NzMzN2RiMGI3MTE5ZWNiMTEwNTc5YWYxZGM1MjAyN2M1MGQwMDY",
+    "commit": {
+      "author": {
+        "name": "scikit-learn-bot",
+        "email": "tjpfdev@gmail.com",
+        "date": "2026-09-21T11:38:09Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-21T11:38:09Z"
+      },
+      "message": ":lock: :robot: CI Update lock files for main CI build(s) :lock: :robot: (#35006)\n\nCo-authored-by: Lock file bot <noreply@github.com>",
+      "tree": {
+        "sha": "6b3985b6a6c5d3d395815f1cb92445c456d511f9",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/trees/6b3985b6a6c5d3d395815f1cb92445c456d511f9"
+      },
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/commits/777337db0b7119ecb110579af1dc52027c50d006",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqsRchCRC1aQ7uu5UhlAAAVL4QAKKcWY7CUTYQpeyotWO5ZcZN\ns/e2s8G/rph7NaGxmcn9TyfFcLYxKIIzjTn6DzgUy4kd2oP1CSPJm9jQ4GF3QpGk\n88B4W2nPgtyZTzlu8rYNQr5h8vyl3Gj4MhwOcVQLD7n41fAUOO9NO67gjIBeB+Uo\na27II1dF27PcpLsKwbaN0BNpaZFsxaLgGY9e4j/KZu+HP3LKasBb+h1RY52uIUlq\nUrCiCP1ET+jqGNbxJz9cEpuxGeERa0IhZpYNvPIWvGNd1EFyiI6FX8ouLLTm/sK8\n7VGszjpTidWG8/wyTHSziECU8nDWBQLMVk2+WVsd6xkndXMQSdgIBAI8HLBMg54B\nP2D2RKASljviqW7UlFlfPJEu4t3ERiH8wX4LknvejBuCNgWyX2h9ehRUSpvZAN1b\nDuK8ns4eJWknigKfFClBmOlEQmX1Nw3rf6L374c4xRohTocnM5X3GtQGWluJ7GfN\nhphd8XfV9bus2YZaMTCfoxp+vX47sBEqvj8IMusS/94W2mpCP4OtVY830ucNEVlF\ntKwxDJdwqxZwaHbPQ/FM6RVK2B2dHb/tsltmUugH8KKG0ICOd4WjBazES8d0uFCa\nbgsW02rIDvwzGybBfYRq8ipMbbuz1ft+FbgjF7ujL8jfbPtOYC+Ro7RbrHk9OC53\nBABo7uOSZqAnXpaCotCi\n=CpF/\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 6b3985b6a6c5d3d395815f1cb92445c456d511f9\nparent ca7439814ae9ca7fb4594f70f3511b0f45b0c971\nauthor scikit-learn-bot <tjpfdev@gmail.com> 1789990689 +0200\ncommitter GitHub <noreply@github.com> 1789990689 +0200\n\n:lock: :robot: CI Update lock files for main CI build(s) :lock: :robot: (#35006)\n\nCo-authored-by: Lock file bot <noreply@github.com>",
+        "verified_at": "2026-09-21T11:38:10Z"
+      }
+    },
+    "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/777337db0b7119ecb110579af1dc52027c50d006",
+    "html_url": "https://github.com/scikit-learn/scikit-learn/commit/777337db0b7119ecb110579af1dc52027c50d006",
+    "comments_url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/777337db0b7119ecb110579af1dc52027c50d006/comments",
+    "author": {
+      "login": "scikit-learn-bot",
+      "id": 8699527,
+      "node_id": "MDQ6VXNlcjg2OTk1Mjc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8699527?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/scikit-learn-bot",
+      "html_url": "https://github.com/scikit-learn-bot",
+      "followers_url": "https://api.github.com/users/scikit-learn-bot/followers",
+      "following_url": "https://api.github.com/users/scikit-learn-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/scikit-learn-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/scikit-learn-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/scikit-learn-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/scikit-learn-bot/orgs",
+      "repos_url": "https://api.github.com/users/scikit-learn-bot/repos",
+      "events_url": "https://api.github.com/users/scikit-learn-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/scikit-learn-bot/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ca7439814ae9ca7fb4594f70f3511b0f45b0c971",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/ca7439814ae9ca7fb4594f70f3511b0f45b0c971",
+        "html_url": "https://github.com/scikit-learn/scikit-learn/commit/ca7439814ae9ca7fb4594f70f3511b0f45b0c971"
+      }
+    ]
+  },
+  {
+    "sha": "ca7439814ae9ca7fb4594f70f3511b0f45b0c971",
+    "node_id": "C_kwDOAAzd1toAKGNhNzQzOTgxNGFlOWNhN2ZiNDU5NGY3MGYzNTExYjBmNDViMGM5NzE",
+    "commit": {
+      "author": {
+        "name": "scikit-learn-bot",
+        "email": "tjpfdev@gmail.com",
+        "date": "2026-09-21T09:53:01Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-21T09:53:01Z"
+      },
+      "message": ":lock: :robot: CI Update lock files for array-api CI build(s) :lock: :robot: (#35005)\n\nCo-authored-by: Lock file bot <noreply@github.com>",
+      "tree": {
+        "sha": "b0fa1cf82cd9ce49ce59c58a144f6dc019847e38",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/trees/b0fa1cf82cd9ce49ce59c58a144f6dc019847e38"
+      },
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/commits/ca7439814ae9ca7fb4594f70f3511b0f45b0c971",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqsP59CRC1aQ7uu5UhlAAA4o0QAEC8VW53/ZIKyHLe91/uKsfk\n6pqiDasbC/n9HWW3CW9g+/6JjgphEHhVZ1CVTRcjj99TdvbyW1En7KjA/O06xEGu\nmemehyuN5AUO8iQ1NqgIybdDkVASZjQL6VLJVtuJNVJMQEZ+wHZ130nfW/jAxC5s\ngSYQrrztxSX7dsTnonlbpuNmSWEAy09HzKEb6k+DtaghIlGyVjP1wivNDNgJOJA2\nqKPtJCe9392kHYCaEJAqUVeXui9W8N/gMm7TRq1V7KN4FvbLrJhnjYWTn57bwbVf\npV7WaJ0JnNO29+OKp5ZtqtXH/5bYYEMO1wAay7dh7EzdY8Iwn9KMS78WvSlfquCL\nAQmbe3FYpM1H8D2RE8nP83+ugqZHWEtpb8eK0YtpcrKqhFaspOHSV6Wrd9S7NXT3\nxp+hCjP0hPPbYazXlrl239/2S/KsfKwnZVm7u1WRXJueQkQQQliiQ2gPC7Kr7CKa\ncX0pSPp+oFvStmb3rGRDeYvi/Ifd7qNYNeuoRXwKlidg+clxBYFrlUJiaLLfx7OX\nuEiG3kd20Tdyog2V0iYMZdX46JzVlKjUid2SPh4nCbxQb31c1TiT5SMvVfK16bHf\nbkbw+lnmxXfF5gIP3AZbt4Miv6C++K+Z2cK5SRkcYdKwrJ5Fg0+5wb/NfiYFBOCx\nKBlJ22PazCJtJ1bLE53w\n=MCjV\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b0fa1cf82cd9ce49ce59c58a144f6dc019847e38\nparent 6eb1a7c2d37de8e4c111a940bc488a637fa1cd0d\nauthor scikit-learn-bot <tjpfdev@gmail.com> 1789984381 +0200\ncommitter GitHub <noreply@github.com> 1789984381 +0200\n\n:lock: :robot: CI Update lock files for array-api CI build(s) :lock: :robot: (#35005)\n\nCo-authored-by: Lock file bot <noreply@github.com>",
+        "verified_at": "2026-09-21T09:53:02Z"
+      }
+    },
+    "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/ca7439814ae9ca7fb4594f70f3511b0f45b0c971",
+    "html_url": "https://github.com/scikit-learn/scikit-learn/commit/ca7439814ae9ca7fb4594f70f3511b0f45b0c971",
+    "comments_url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/ca7439814ae9ca7fb4594f70f3511b0f45b0c971/comments",
+    "author": {
+      "login": "scikit-learn-bot",
+      "id": 8699527,
+      "node_id": "MDQ6VXNlcjg2OTk1Mjc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8699527?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/scikit-learn-bot",
+      "html_url": "https://github.com/scikit-learn-bot",
+      "followers_url": "https://api.github.com/users/scikit-learn-bot/followers",
+      "following_url": "https://api.github.com/users/scikit-learn-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/scikit-learn-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/scikit-learn-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/scikit-learn-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/scikit-learn-bot/orgs",
+      "repos_url": "https://api.github.com/users/scikit-learn-bot/repos",
+      "events_url": "https://api.github.com/users/scikit-learn-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/scikit-learn-bot/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6eb1a7c2d37de8e4c111a940bc488a637fa1cd0d",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/6eb1a7c2d37de8e4c111a940bc488a637fa1cd0d",
+        "html_url": "https://github.com/scikit-learn/scikit-learn/commit/6eb1a7c2d37de8e4c111a940bc488a637fa1cd0d"
+      }
+    ]
+  },
+  {
+    "sha": "6eb1a7c2d37de8e4c111a940bc488a637fa1cd0d",
+    "node_id": "C_kwDOAAzd1toAKDZlYjFhN2MyZDM3ZGU4ZTRjMTExYTk0MGJjNDg4YTYzN2ZhMWNkMGQ",
+    "commit": {
+      "author": {
+        "name": "scikit-learn-bot",
+        "email": "tjpfdev@gmail.com",
+        "date": "2026-09-21T09:52:32Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-21T09:52:32Z"
+      },
+      "message": ":lock: :robot: CI Update lock files for scipy-dev CI build(s) :lock: :robot: (#35004)\n\nCo-authored-by: Lock file bot <noreply@github.com>",
+      "tree": {
+        "sha": "5ee5c1b3c0190de0af0a07306b51183a3e1868b4",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/trees/5ee5c1b3c0190de0af0a07306b51183a3e1868b4"
+      },
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/commits/6eb1a7c2d37de8e4c111a940bc488a637fa1cd0d",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqsP5gCRC1aQ7uu5UhlAAAO0MQADw/58W0S5AyJhLzg6s8AxaH\nd1dtFW93ueloYQ5iR7xcZNocUbSdetX9MH901Ut/jyQuvkfIE888zvz7kRGjm1qv\nHmBqEo0Fb6oFTjDCNuK0TMsB5HzdP5YOjovhmtlXZxGzZvSUEYzgn5PVxSKPF6kV\nKeRR+qIoaQPboCytqrzo1u7KQYk4Ns/caQ49+pOVzh4hO3XJ23vHnjS1pQHnoZnc\nGeg9Ys+7e66e/qisDdudqfsVqxO+dW/AoMMzmsj2hj3ovDSf2DEuGq/WikPItv+U\niqx2A9P3X7KCOjIcuM0VWu7K4zuvV4viPiSK+n4Rzqknmo8Q7CEYuMs4piHg1xwD\ntqaiX4sYQPCb/7+oGXd6Cjiubnwbm50gCssp/5bfAyBJlKjaU74wrrXD6SeGE3kq\n43zVOmITuO7f0ATCmxS44svmLakGLb8KMlJTLx4BV8SbXda5LDCj+ZVuD7z5IXUg\nYxsMFKa6wZFXd+BsfW3QP5Nfpnb6EjVJx2BuqopUJ9fPw3jefquFlUfWWTjqH6ZO\nsUccqEZa9/W23G/auAz6lCE/Tb4B1+EnHkAjd/MSOJPiQosJGsgDKGvT1Q3nAoJ4\nlsQM7xk31F2sqy60WI2sSUufKD4Uth+4hovOjl/j21RGLrQksQKXksYfGSHr8ABt\nG/QGUxc3xwJY8FJhzHTC\n=Hle1\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 5ee5c1b3c0190de0af0a07306b51183a3e1868b4\nparent 64ed0e49be53a320b96edcf06da48525a0ef73cf\nauthor scikit-learn-bot <tjpfdev@gmail.com> 1789984352 +0200\ncommitter GitHub <noreply@github.com> 1789984352 +0200\n\n:lock: :robot: CI Update lock files for scipy-dev CI build(s) :lock: :robot: (#35004)\n\nCo-authored-by: Lock file bot <noreply@github.com>",
+        "verified_at": "2026-09-21T09:52:32Z"
+      }
+    },
+    "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/6eb1a7c2d37de8e4c111a940bc488a637fa1cd0d",
+    "html_url": "https://github.com/scikit-learn/scikit-learn/commit/6eb1a7c2d37de8e4c111a940bc488a637fa1cd0d",
+    "comments_url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/6eb1a7c2d37de8e4c111a940bc488a637fa1cd0d/comments",
+    "author": {
+      "login": "scikit-learn-bot",
+      "id": 8699527,
+      "node_id": "MDQ6VXNlcjg2OTk1Mjc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8699527?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/scikit-learn-bot",
+      "html_url": "https://github.com/scikit-learn-bot",
+      "followers_url": "https://api.github.com/users/scikit-learn-bot/followers",
+      "following_url": "https://api.github.com/users/scikit-learn-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/scikit-learn-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/scikit-learn-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/scikit-learn-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/scikit-learn-bot/orgs",
+      "repos_url": "https://api.github.com/users/scikit-learn-bot/repos",
+      "events_url": "https://api.github.com/users/scikit-learn-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/scikit-learn-bot/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "64ed0e49be53a320b96edcf06da48525a0ef73cf",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/64ed0e49be53a320b96edcf06da48525a0ef73cf",
+        "html_url": "https://github.com/scikit-learn/scikit-learn/commit/64ed0e49be53a320b96edcf06da48525a0ef73cf"
+      }
+    ]
+  },
+  {
+    "sha": "64ed0e49be53a320b96edcf06da48525a0ef73cf",
+    "node_id": "C_kwDOAAzd1toAKDY0ZWQwZTQ5YmU1M2EzMjBiOTZlZGNmMDZkYTQ4NTI1YTBlZjczY2Y",
+    "commit": {
+      "author": {
+        "name": "scikit-learn-bot",
+        "email": "tjpfdev@gmail.com",
+        "date": "2026-09-21T09:52:02Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-21T09:52:02Z"
+      },
+      "message": ":lock: :robot: CI Update lock files for free-threaded CI build(s) :lock: :robot: (#35003)\n\nCo-authored-by: Lock file bot <noreply@github.com>",
+      "tree": {
+        "sha": "1779444d78669de7991877175e34a701a2f49801",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/trees/1779444d78669de7991877175e34a701a2f49801"
+      },
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/commits/64ed0e49be53a320b96edcf06da48525a0ef73cf",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqsP5CCRC1aQ7uu5UhlAAAomsQABuErGBsba8FjQzc2tFK8Yd8\nnMQfS1MOJ0YJZYrDg+TywVNrbPaIV8hbBiNWuQ9fhiPQKaokMGsJHtDZH7H8cPIs\nSlbonwwacybePDgHRGPpUIB6V1Q6hfBLrr1hPC/kgbnwvlBCZTpc4JbpkaAmHwLz\n51qRW3wN6aaCPMVw0Jzu9qA3P4fyc6/uKkoXPXmU/nlTcczJ38lBauls52GnDEfu\nJ3n82IDD2yF5XK0w3g6Sl597vmSDZ9vVI67yb3UrJ+5/lXgE5AhbpNObY5A3OOHT\nGnIOdXQbqf7RNolYjUlN8G4Pa42XMWVf7Qxxy5TWQIpfRfb1atTCqrVozh6JuhQU\nM96OCPQfR9JUcJ5LaRt0rXy1TItAlgzqNjHlqjbn1TQiGDZ/L0PjSwNxe0yA5DUl\nY+N8dA4OWqYebX2cL9dZikd/SKHllDJOm57YUYHw2n6FWHPZHETcec6AILnOwMsV\na8Rhlkew9/6qRUb0FWjfNrmNVLO/s53UjeEpG7sMC6zKOelmcwf1+mhyHSESY+jb\nciIsKSk/AOfoM5ukRdUeUCcbzwllbyDmce4D4C3hQwc8vgTHkMtDZ7Ewt9gwd23/\nqiRUPfA1SkobO7zqq/5YO4WarDbHkcpS6RbAtw//Dx40OhjozLGhYTMm91cd95qG\n/k7xK5yhkat9xpPrDGVl\n=TysY\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 1779444d78669de7991877175e34a701a2f49801\nparent 2cada5b42b08c94aad32557eafc64ba70f22969e\nauthor scikit-learn-bot <tjpfdev@gmail.com> 1789984322 +0200\ncommitter GitHub <noreply@github.com> 1789984322 +0200\n\n:lock: :robot: CI Update lock files for free-threaded CI build(s) :lock: :robot: (#35003)\n\nCo-authored-by: Lock file bot <noreply@github.com>",
+        "verified_at": "2026-09-21T09:52:03Z"
+      }
+    },
+    "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/64ed0e49be53a320b96edcf06da48525a0ef73cf",
+    "html_url": "https://github.com/scikit-learn/scikit-learn/commit/64ed0e49be53a320b96edcf06da48525a0ef73cf",
+    "comments_url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/64ed0e49be53a320b96edcf06da48525a0ef73cf/comments",
+    "author": {
+      "login": "scikit-learn-bot",
+      "id": 8699527,
+      "node_id": "MDQ6VXNlcjg2OTk1Mjc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8699527?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/scikit-learn-bot",
+      "html_url": "https://github.com/scikit-learn-bot",
+      "followers_url": "https://api.github.com/users/scikit-learn-bot/followers",
+      "following_url": "https://api.github.com/users/scikit-learn-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/scikit-learn-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/scikit-learn-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/scikit-learn-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/scikit-learn-bot/orgs",
+      "repos_url": "https://api.github.com/users/scikit-learn-bot/repos",
+      "events_url": "https://api.github.com/users/scikit-learn-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/scikit-learn-bot/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2cada5b42b08c94aad32557eafc64ba70f22969e",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/2cada5b42b08c94aad32557eafc64ba70f22969e",
+        "html_url": "https://github.com/scikit-learn/scikit-learn/commit/2cada5b42b08c94aad32557eafc64ba70f22969e"
+      }
+    ]
+  },
+  {
+    "sha": "2cada5b42b08c94aad32557eafc64ba70f22969e",
+    "node_id": "C_kwDOAAzd1toAKDJjYWRhNWI0MmIwOGM5NGFhZDMyNTU3ZWFmYzY0YmE3MGYyMjk2OWU",
+    "commit": {
+      "author": {
+        "name": "J\u00e9r\u00e9mie du Boisberranger",
+        "email": "jeremie@probabl.ai",
+        "date": "2026-09-19T19:07:46Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-19T19:07:46Z"
+      },
+      "message": "MNT Clean up after min dependency bump (#34990)",
+      "tree": {
+        "sha": "a7c0f1e00b122f64cf7f9eeb65ad2b968b571010",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/trees/a7c0f1e00b122f64cf7f9eeb65ad2b968b571010"
+      },
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/commits/2cada5b42b08c94aad32557eafc64ba70f22969e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqrt2CCRC1aQ7uu5UhlAAAosYQAGmXlyT60nMHV+tcO7wsF75R\n5WUFBec49w9iJ4TUXdmjuuHPnctmCzIpYBgjuuQStPOJbOqojE8Jrz+G/hIZjPyH\n4KADN+9mmYWthm+8loIw3cNbDT72GwkDYFKJZqyH9Dd4GVIFWDRhqwp8uof6xmaC\n+AySBKaiPrLBOT46Et8ec1R45DE2IhoPMtK1P27rUGjAPYXPHCPni4Lu2bToLQSx\n2HQYFwyoD9Ezq9woabTt0WvWCdA04AziV8orwFAIC/OG9fdhzsp3f7daia9tghHw\n033ilyKMPSSCgZdLKkpwraF4GL/XEt3Q7dw/vaaOHleimXhZKcUGJJTbytq91pPM\n3lDXJi8OhKOEBxIFq6Z7Pspcw0muaze/+/i5GuF7BB2Xv+GQBtnmLDx2cfxLxkE0\niA7XgBr3NDS2yRmXf+mOJuLaEnyXByt+KHm6rXuA51l1CPmtN2yP9PrxuBLk19mO\nTU7AVwecReKFBgurjboy6rDcRZMimyhHGskInWcmqAEJyblV8kxPJsqbuXa246y3\nEhblBlmQCXKBZRaMxKo3MgWGr4HoNvWCVpOYCvYkFTVfbLB8VcIFyMdP82/GeAjJ\n8CYwQS4GPDi663ODpdKSeRv8q2eWwiJqyF5TGWfQXylhkChV2mTZwLTSFQwIlDtn\ntwh60ul6cDy33u2xmU1K\n=QJny\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree a7c0f1e00b122f64cf7f9eeb65ad2b968b571010\nparent 8fef6f8a1e47c23848ed4baf68690ec3aac94fa4\nauthor J\u00e9r\u00e9mie du Boisberranger <jeremie@probabl.ai> 1789844866 +0200\ncommitter GitHub <noreply@github.com> 1789844866 -0700\n\nMNT Clean up after min dependency bump (#34990)",
+        "verified_at": "2026-09-19T19:07:47Z"
+      }
+    },
+    "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/2cada5b42b08c94aad32557eafc64ba70f22969e",
+    "html_url": "https://github.com/scikit-learn/scikit-learn/commit/2cada5b42b08c94aad32557eafc64ba70f22969e",
+    "comments_url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/2cada5b42b08c94aad32557eafc64ba70f22969e/comments",
+    "author": {
+      "login": "jeremiedbb",
+      "id": 34657725,
+      "node_id": "MDQ6VXNlcjM0NjU3NzI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34657725?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jeremiedbb",
+      "html_url": "https://github.com/jeremiedbb",
+      "followers_url": "https://api.github.com/users/jeremiedbb/followers",
+      "following_url": "https://api.github.com/users/jeremiedbb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeremiedbb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeremiedbb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeremiedbb/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeremiedbb/orgs",
+      "repos_url": "https://api.github.com/users/jeremiedbb/repos",
+      "events_url": "https://api.github.com/users/jeremiedbb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeremiedbb/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8fef6f8a1e47c23848ed4baf68690ec3aac94fa4",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/8fef6f8a1e47c23848ed4baf68690ec3aac94fa4",
+        "html_url": "https://github.com/scikit-learn/scikit-learn/commit/8fef6f8a1e47c23848ed4baf68690ec3aac94fa4"
+      }
+    ]
+  },
+  {
+    "sha": "8fef6f8a1e47c23848ed4baf68690ec3aac94fa4",
+    "node_id": "C_kwDOAAzd1toAKDhmZWY2ZjhhMWU0N2MyMzg0OGVkNGJhZjY4NjkwZWMzYWFjOTRmYTQ",
+    "commit": {
+      "author": {
+        "name": "Anne Beyer",
+        "email": "anne.beyer@mailbox.org",
+        "date": "2026-09-19T13:07:28Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-19T13:07:28Z"
+      },
+      "message": "CI: Add `continue-on-error` in linting comment action (#34929)",
+      "tree": {
+        "sha": "47b18d0d4a4740ca1b0473e033961c09c62037ec",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/trees/47b18d0d4a4740ca1b0473e033961c09c62037ec"
+      },
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/git/commits/8fef6f8a1e47c23848ed4baf68690ec3aac94fa4",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqrokQCRC1aQ7uu5UhlAAAbw8QAD0+k7oW6HUd5sU8M9XHeu/w\neGAEtHtDQ380/qUroYzrbNdP98oxf46xEY7mWPb6whLgJOpeJ4+u7ccsR0tETiZP\nwsGdlGqmByNOKjAtnmKB9M797sZf+OLu5dGGSRpK3gaClHosYuC4CRcGQPBP2YdG\nUKoQ3jIHko3fSclw72y4PpuQKobUF/OPE2ehUoIZQsag2GyUA36X4cDrLYZRU/Oj\nrblYIABDIqXuP0plDNyBz4y20BshY5ZGqqzw1zM2QOgdYAdzsVWzgCb5lgZ+zWER\nQsMWwEiSRWOW5WZs7guXtOs7nguZSRCdYv1xANuOY0y2ofANUjnvsP5ceIrnL6Jb\n45Lv/0OyknU6WfqWBPJe2qrj5s1m2P20eA9KGWZ71q6FdviKBjxWuqNPCP+2gbK9\nDJnCqe60iiq458u2AE0zZ4n0eQRS4P4Gl+udCcmvCSQTXmSsmyUHtYeJnXO3sMyP\n8Qk6EIbVxZS4OS0E8KmaHqEeTuUPkA8pcq1KcBCfTLbuHj8ZzxOqqnoHsB6lkSpc\nPxnFf9deEdnLeyQAVLaY2HEKVUPsr1U8gL2GtZTH9ulc8XiCaOUlCJh1pyJJV3iD\npZgGlrF5Wv+Byx/zIet+qj3ZBpZAhLl101kYCYYeJj4QTy7G6KN/IKLUX+I65LKm\n9Mu51J8ukg0cRwJDcDMQ\n=pSly\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 47b18d0d4a4740ca1b0473e033961c09c62037ec\nparent 7a6ed871e03e95de276b0bc354ffb21e8399de59\nauthor Anne Beyer <anne.beyer@mailbox.org> 1789823248 +0200\ncommitter GitHub <noreply@github.com> 1789823248 -0400\n\nCI: Add `continue-on-error` in linting comment action (#34929)",
+        "verified_at": "2026-09-19T13:07:28Z"
+      }
+    },
+    "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/8fef6f8a1e47c23848ed4baf68690ec3aac94fa4",
+    "html_url": "https://github.com/scikit-learn/scikit-learn/commit/8fef6f8a1e47c23848ed4baf68690ec3aac94fa4",
+    "comments_url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/8fef6f8a1e47c23848ed4baf68690ec3aac94fa4/comments",
+    "author": {
+      "login": "AnneBeyer",
+      "id": 12881170,
+      "node_id": "MDQ6VXNlcjEyODgxMTcw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12881170?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnneBeyer",
+      "html_url": "https://github.com/AnneBeyer",
+      "followers_url": "https://api.github.com/users/AnneBeyer/followers",
+      "following_url": "https://api.github.com/users/AnneBeyer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnneBeyer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnneBeyer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnneBeyer/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnneBeyer/orgs",
+      "repos_url": "https://api.github.com/users/AnneBeyer/repos",
+      "events_url": "https://api.github.com/users/AnneBeyer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnneBeyer/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7a6ed871e03e95de276b0bc354ffb21e8399de59",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/commits/7a6ed871e03e95de276b0bc354ffb21e8399de59",
+        "html_url": "https://github.com/scikit-learn/scikit-learn/commit/7a6ed871e03e95de276b0bc354ffb21e8399de59"
+      }
+    ]
+  }
+]
