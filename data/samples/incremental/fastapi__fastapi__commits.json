@@ -1,36 +1,36 @@
 [
   {
-    "sha": "192b12197eb04c2b4a691cce7d87261b21716714",
-    "node_id": "C_kwDOCZduT9oAKDE5MmIxMjE5N2ViMDRjMmI0YTY5MWNjZTdkODcyNjFiMjE3MTY3MTQ",
+    "sha": "a3d205bf19640528718cb4f05ab77f4dfca6ad9a",
+    "node_id": "C_kwDOCZduT9oAKGEzZDIwNWJmMTk2NDA1Mjg3MThjYjRmMDVhYjc3ZjRkZmNhNmFkOWE",
     "commit": {
       "author": {
         "name": "latest-changes[bot]",
         "email": "313495250+latest-changes[bot]@users.noreply.github.com",
-        "date": "2026-09-25T18:27:30Z"
+        "date": "2026-09-28T18:16:42Z"
       },
       "committer": {
         "name": "GitHub",
         "email": "noreply@github.com",
-        "date": "2026-09-25T18:27:30Z"
+        "date": "2026-09-28T18:16:42Z"
       },
       "message": "\ud83d\udcdd Update release notes\n\n[skip ci]",
       "tree": {
-        "sha": "305ecf090d56d322ff3e385eb9311236d1baacd2",
-        "url": "https://api.github.com/repos/fastapi/fastapi/git/trees/305ecf090d56d322ff3e385eb9311236d1baacd2"
+        "sha": "131eaf57e88d0de1b00514bca17148d7ea89779a",
+        "url": "https://api.github.com/repos/fastapi/fastapi/git/trees/131eaf57e88d0de1b00514bca17148d7ea89779a"
       },
-      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/192b12197eb04c2b4a691cce7d87261b21716714",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/a3d205bf19640528718cb4f05ab77f4dfca6ad9a",
       "comment_count": 0,
       "verification": {
         "verified": true,
         "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqtr0SCRC1aQ7uu5UhlAAA6lkQAKnqi7ItD4oweQl8XQulRrb8\ngqNwyNNzmoHsLPVSPuqqRqjqIsF1BakmyUx5BzmpB7UQchU+DqUj8iHLjlB6anE8\nWPVt1CYzRGFAyTXm251IUGjUmYl8MIdxBuS2CyAl6c+MJ11PjsbSUYzzeezjiINi\nXHzs5rhLI1PtXI9lR6lr5Up5XXPcKw9sCk4Yyb0siQsolrIditKwcHpddfLn53RC\ndVJrfqNNaXHom2CPKk/cMfJbmIqelzmIUdPYdrdJGfBpdDyUp41HZcW2/jLK2TmH\neBolN8qfYzs/9gTdmtTquDYsy5Di92TwEFdUiIudh0HlXorYnH7+monrpbeZzFtZ\n/SUa8TcgG+53WvAQ2ljOOgiS4pik5yu8LfnGLdT17tWx236QRRXXJR/KN8hV6ya4\nSsolg1VqxyCFmu5Tn/koBHqpmvEqSOhjx1JinLy+FnZkCWO3dYCk83LWsTT3ChqW\njeKaMiaROUioC1nfusZmsC8k92dQm843d8I9ZlQ9ob29KP0bq8Iq5vZXUBjkvV1s\n0wbHgygKTOrLoesYkHpbJNYP/QDogRnhbQ1SmFRP7Wg9HeGP3UmCPfeUpm6Z6Q8h\np+3XM08Yq1RmDivhZCi09G7elr3tf6VDw4zrGiScQqKlmyvG5JcPQQ3hISz2byU6\niPYj3zvT78L7gB3Prsav\n=jZnR\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 305ecf090d56d322ff3e385eb9311236d1baacd2\nparent d4efcba222fdd21d0f0533f4b6d917ac1f7470d6\nauthor latest-changes[bot] <313495250+latest-changes[bot]@users.noreply.github.com> 1790360850 +0000\ncommitter GitHub <noreply@github.com> 1790360850 +0000\n\n\ud83d\udcdd Update release notes\n\n[skip ci]",
-        "verified_at": "2026-09-25T18:27:31Z"
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJquq8KCRC1aQ7uu5UhlAAAVR0QAIns+af2sM49TkPDnBPvNJ+E\nZ0OoRkx1LQXe0BdvcJ0lipq/38BiL/Zir/Yyv0hVLNtGpp3iM+Sv+Jz61RwzSkGp\njLlQXuTw2/lBHDppXT1r/cIIBqot7Y82aOY5HJtYIwlmohUkZNy4S2mC0CKtaAs2\ng3vUFtS78KJlmOdS9zWTjtXSyF4cr1X+NyHkVjbsNXukOWiLebJmpPsY6D3AtpFM\njRCF5NJ4Tal/+grXOfHgzpWjEKTmYVfRT85OCqXwf18FIqAgGQOXyiY1DRUiLyTl\ns7kVZSm+85XqcST/uEsV8OSS/+eTGe79AtdUD9XJMyQ/mhg3rFK+sVD0sRnuRRCS\nxnQ9uZikETTtBQ7krI0qHsj56pwi1sWpRS8EQb8zFx5Kdx+JyS3CdRcZTbYLF4tt\nGH9CcWsNwf9g9NSChyt39AfxaDJr7A2VJ4S5bo/7vTKEHetJx1TEHV6OzRPwhvuh\nTxOTRLlyCk8x/I7Ms4uOLmb0zoy2HgOYGLQsUuuEUpXWHSb+fuZT3lpGvl4VJvTN\noRLYASGguSGcDLaiV3i5AZb+ZiQgsUkpvxkartQho2vsDdxqV7HFYVUrFic6ADGV\nyOwhnkPFbbq7k+TZ1E7d+I8AacenbYKYNgriTHJGzPo99qS9tXxjZC14AavHjMIt\nZBiYp0AzJ9wu2TMuBWDB\n=mWTr\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 131eaf57e88d0de1b00514bca17148d7ea89779a\nparent 39c9a473f9450fc0834ad4ce24d176f3f4a4bb4a\nauthor latest-changes[bot] <313495250+latest-changes[bot]@users.noreply.github.com> 1790619402 +0000\ncommitter GitHub <noreply@github.com> 1790619402 +0000\n\n\ud83d\udcdd Update release notes\n\n[skip ci]",
+        "verified_at": "2026-09-28T18:16:44Z"
       }
     },
-    "url": "https://api.github.com/repos/fastapi/fastapi/commits/192b12197eb04c2b4a691cce7d87261b21716714",
-    "html_url": "https://github.com/fastapi/fastapi/commit/192b12197eb04c2b4a691cce7d87261b21716714",
-    "comments_url": "https://api.github.com/repos/fastapi/fastapi/commits/192b12197eb04c2b4a691cce7d87261b21716714/comments",
+    "url": "https://api.github.com/repos/fastapi/fastapi/commits/a3d205bf19640528718cb4f05ab77f4dfca6ad9a",
+    "html_url": "https://github.com/fastapi/fastapi/commit/a3d205bf19640528718cb4f05ab77f4dfca6ad9a",
+    "comments_url": "https://api.github.com/repos/fastapi/fastapi/commits/a3d205bf19640528718cb4f05ab77f4dfca6ad9a/comments",
     "author": {
       "login": "latest-changes[bot]",
       "id": 313495250,
@@ -75,62 +75,62 @@
     },
     "parents": [
       {
-        "sha": "d4efcba222fdd21d0f0533f4b6d917ac1f7470d6",
-        "url": "https://api.github.com/repos/fastapi/fastapi/commits/d4efcba222fdd21d0f0533f4b6d917ac1f7470d6",
-        "html_url": "https://github.com/fastapi/fastapi/commit/d4efcba222fdd21d0f0533f4b6d917ac1f7470d6"
+        "sha": "39c9a473f9450fc0834ad4ce24d176f3f4a4bb4a",
+        "url": "https://api.github.com/repos/fastapi/fastapi/commits/39c9a473f9450fc0834ad4ce24d176f3f4a4bb4a",
+        "html_url": "https://github.com/fastapi/fastapi/commit/39c9a473f9450fc0834ad4ce24d176f3f4a4bb4a"
       }
     ]
   },
   {
-    "sha": "d4efcba222fdd21d0f0533f4b6d917ac1f7470d6",
-    "node_id": "C_kwDOCZduT9oAKGQ0ZWZjYmEyMjJmZGQyMWQwZjA1MzNmNGI2ZDkxN2FjMWY3NDcwZDY",
+    "sha": "39c9a473f9450fc0834ad4ce24d176f3f4a4bb4a",
+    "node_id": "C_kwDOCZduT9oAKDM5YzlhNDczZjk0NTBmYzA4MzRhZDRjZTI0ZDE3NmYzZjRhNGJiNGE",
     "commit": {
       "author": {
-        "name": "dependabot[bot]",
-        "email": "49699333+dependabot[bot]@users.noreply.github.com",
-        "date": "2026-09-25T18:27:27Z"
+        "name": "Sebasti\u00e1n Ram\u00edrez",
+        "email": "tiangolo@gmail.com",
+        "date": "2026-09-28T18:16:38Z"
       },
       "committer": {
         "name": "GitHub",
         "email": "noreply@github.com",
-        "date": "2026-09-25T18:27:27Z"
+        "date": "2026-09-28T18:16:38Z"
       },
-      "message": "\u2b06 Bump anyio from 4.12.1 to 4.14.2 (#16375)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Yurii Motov <yurii.motov.monte@gmail.com>",
+      "message": "\ud83d\udd27 Update sponsors: remove Permit.io (#16406)",
       "tree": {
-        "sha": "fd67ba5345828eba4bea3a9f7af0b83bdbe73553",
-        "url": "https://api.github.com/repos/fastapi/fastapi/git/trees/fd67ba5345828eba4bea3a9f7af0b83bdbe73553"
+        "sha": "4fc75dc20fa3a1490cfd7779a7f09f9030710ac8",
+        "url": "https://api.github.com/repos/fastapi/fastapi/git/trees/4fc75dc20fa3a1490cfd7779a7f09f9030710ac8"
       },
-      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/d4efcba222fdd21d0f0533f4b6d917ac1f7470d6",
+      "url": "https://api.github.com/repos/fastapi/fastapi/git/commits/39c9a473f9450fc0834ad4ce24d176f3f4a4bb4a",
       "comment_count": 0,
       "verification": {
         "verified": true,
         "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqtr0PCRC1aQ7uu5UhlAAAZtoQAHMotuidwriQl4PtJpNAXIxk\nRR3O9txl/hfHRXonMg8cTPF0wU3AG17+yc9tdttO9GLJmQRxtW9zvLZa+cRQeYLq\nAII4Kf5gbI6GdLhnn4seSFOYwW/3dIK/7Wdzq5PIeLahes8N106LGWQiJAvQPtyo\nnp/UVM4lA3KREaKA3gOJUryhWlhcsb/oSu44OxiBX62t2MBr+bwvGeK+iEnTOSLB\nMgL0f3+wkyLZIPQuZG/zIQfzmmmaMFf1BxItTA3D2YFdFhkwwyBRKs6f3CpPkIXj\nEQKIKEdlWtvPsgtlOg4y/mLqe+nqkgRCSE1XZbrsrKaAfIEeBDFzuxG8EUDgX32w\nQL3TOavZUm7JXvxxp6+ZjpkMvGikPHk7k/O0XqCDKXenNvIsYjTcJ7YuG9GNnLYf\nexlVFnFLukESS/+13jYLYYa6QVqL11TcQ/hDrOK27uT86jcNanmxGB6Vyg9clGI3\n3X4fHF7SeLb/bRh+jilnxzeaepUjRN8DGiHkmx/31I5Ym/R0xCGHi9uUvaYmlgCA\n5J3z1vrwuyZHEtljF/v6Han6Pv0MXgmSI/CmWIwZCMV8sQYxGZcH6ZXKiv5GknlM\nnATMHQglh/VlEPoqyhv6IOqPSeekr/GByjLQ8eyxdO+qyOheOBvaS54/82yfoUxj\nigSY4envzTn/MZLz1KfM\n=eQtr\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree fd67ba5345828eba4bea3a9f7af0b83bdbe73553\nparent 50113da16fec53b66b80d75e80a89296de4fa5a5\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1790360847 +0200\ncommitter GitHub <noreply@github.com> 1790360847 +0200\n\n\u2b06 Bump anyio from 4.12.1 to 4.14.2 (#16375)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Yurii Motov <yurii.motov.monte@gmail.com>",
-        "verified_at": "2026-09-25T18:27:27Z"
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJquq8GCRC1aQ7uu5UhlAAAMjIQAB90rSMnohPjzDzsJIb+AnPe\nJPGCTYAgZECRuPGsP0HV+sjkh8hblZH00P5EaiHh95wfFJaLsjeQbpmZpa8EjkQW\nwCV/nYyjSRnrGLnSZIX54XA7OMMTrynmbeJuEG5a/e8ZYyq9jEYgyLd6FUtrjF4z\nwfOfhkaaZMl5vvo67dvzlal6CQbYgQXI5vDn7dR4e2+joHDFMrYuY+9Q2gUaWXj1\nfR70x4Xi9wbID6FEQ2vVbYd2bxBTbojSfncggvvFx4p81Dm8zWm2J3KoTnSWC2qo\n1u/yl+qZbExpAm9svxE6AiTFPZSyXSE0PP3lwx69vbaH1EXtspcoUhVxqxUz1COS\nQTUZKrBVL8DY2xyDYGmI5JaF7k4H0bXf7XTlgQan5MXCrBnA2sBhwlVWo4iFTLxE\nAbtNgx/iLq7PwsIlz4MLq1Vl6h6XfF+OOVmvX3Biu99XBA92re76OHl4Toy0bnkZ\nlVJFkG1Iej415hjEr//gOEUfRYlYLWe2XU4sL5OkvcwGkuu2ONzDudS0R2gjKSFo\nEYLgSdSYkEiePVs6ZmUi6x0HBpstzHQ6guV0XxT0Kf6Mj4P/byoRs+3JgaNjoA6K\nYhK1E8CaYJBN3LBkNC2TDu7idK5+mvdF1X5MFOYT+mfJJEl0jpqBV3AFbUNyYfm+\nFgf1gjKt2jItDJkqkka0\n=PpG0\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 4fc75dc20fa3a1490cfd7779a7f09f9030710ac8\nparent 192b12197eb04c2b4a691cce7d87261b21716714\nauthor Sebasti\u00e1n Ram\u00edrez <tiangolo@gmail.com> 1790619398 +0200\ncommitter GitHub <noreply@github.com> 1790619398 +0000\n\n\ud83d\udd27 Update sponsors: remove Permit.io (#16406)",
+        "verified_at": "2026-09-28T18:16:39Z"
       }
     },
-    "url": "https://api.github.com/repos/fastapi/fastapi/commits/d4efcba222fdd21d0f0533f4b6d917ac1f7470d6",
-    "html_url": "https://github.com/fastapi/fastapi/commit/d4efcba222fdd21d0f0533f4b6d917ac1f7470d6",
-    "comments_url": "https://api.github.com/repos/fastapi/fastapi/commits/d4efcba222fdd21d0f0533f4b6d917ac1f7470d6/comments",
+    "url": "https://api.github.com/repos/fastapi/fastapi/commits/39c9a473f9450fc0834ad4ce24d176f3f4a4bb4a",
+    "html_url": "https://github.com/fastapi/fastapi/commit/39c9a473f9450fc0834ad4ce24d176f3f4a4bb4a",
+    "comments_url": "https://api.github.com/repos/fastapi/fastapi/commits/39c9a473f9450fc0834ad4ce24d176f3f4a4bb4a/comments",
     "author": {
-      "login": "dependabot[bot]",
-      "id": 49699333,
-      "node_id": "MDM6Qm90NDk2OTkzMzM=",
-      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "login": "tiangolo",
+      "id": 1326112,
+      "node_id": "MDQ6VXNlcjEzMjYxMTI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1326112?v=4",
       "gravatar_id": "",
-      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
-      "html_url": "https://github.com/apps/dependabot",
-      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
-      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
-      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
-      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
-      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
-      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
-      "type": "Bot",
+      "url": "https://api.github.com/users/tiangolo",
+      "html_url": "https://github.com/tiangolo",
+      "followers_url": "https://api.github.com/users/tiangolo/followers",
+      "following_url": "https://api.github.com/users/tiangolo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tiangolo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tiangolo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tiangolo/subscriptions",
+      "organizations_url": "https://api.github.com/users/tiangolo/orgs",
+      "repos_url": "https://api.github.com/users/tiangolo/repos",
+      "events_url": "https://api.github.com/users/tiangolo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tiangolo/received_events",
+      "type": "User",
       "user_view_type": "public",
       "site_admin": false
     },
@@ -157,9 +157,9 @@
     },
     "parents": [
       {
-        "sha": "50113da16fec53b66b80d75e80a89296de4fa5a5",
-        "url": "https://api.github.com/repos/fastapi/fastapi/commits/50113da16fec53b66b80d75e80a89296de4fa5a5",
-        "html_url": "https://github.com/fastapi/fastapi/commit/50113da16fec53b66b80d75e80a89296de4fa5a5"
+        "sha": "192b12197eb04c2b4a691cce7d87261b21716714",
+        "url": "https://api.github.com/repos/fastapi/fastapi/commits/192b12197eb04c2b4a691cce7d87261b21716714",
+        "html_url": "https://github.com/fastapi/fastapi/commit/192b12197eb04c2b4a691cce7d87261b21716714"
       }
     ]
   }
